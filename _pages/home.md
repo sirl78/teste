@@ -8,13 +8,13 @@ layout: page
 permalink: https://aqueduct.io/home/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_slideshow_full size='no scaling' stretch='' animation='slide' autoplay='false' interval='5' control_layout='av-control-default' src='' attachment='' attachment_size='' position='top left' repeat='no-repeat' attach='scroll']
 [av_slide_full slide_type='image' id='122' video='' mobile_image='' video_format='' video_ratio='' title='' custom_title_size='' custom_content_size='' caption_pos='caption_right caption_right_framed caption_framed' link_apply='' link='lightbox' link_target='' button_label='' button_color='light' link1='manually,http://' link_target1='' button_label2='' button_color2='light' link2='manually,http://' link_target2='' font_color='' custom_title='' custom_content='' overlay_opacity='0.1' overlay_color='' overlay_pattern='' overlay_custom_pattern=''][/av_slide_full]
@@ -37,16 +37,11 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-1e7e347a-52af-4c5c-93bb-55d0a5003282" class="hs-cta-wrapper">
 <span id="hs-cta-1e7e347a-52af-4c5c-93bb-55d0a5003282" class="hs-cta-node hs-cta-1e7e347a-52af-4c5c-93bb-55d0a5003282">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/1e7e347a-52af-4c5c-93bb-55d0a5003282"><img id="hs-cta-img-1e7e347a-52af-4c5c-93bb-55d0a5003282" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/1e7e347a-52af-4c5c-93bb-55d0a5003282.png" alt="ABOUT AQUEDUCT" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '1e7e347a-52af-4c5c-93bb-55d0a5003282', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '1e7e347a-52af-4c5c-93bb-55d0a5003282', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -71,16 +66,11 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-wrapper">
 <span id="hs-cta-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-node hs-cta-3e1ef674-5b56-4f1c-9a42-937c56361a23">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/3e1ef674-5b56-4f1c-9a42-937c56361a23"><img id="hs-cta-img-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/3e1ef674-5b56-4f1c-9a42-937c56361a23.png" alt="GO TO THE TUTORIALS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '3e1ef674-5b56-4f1c-9a42-937c56361a23', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '3e1ef674-5b56-4f1c-9a42-937c56361a23', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -302,16 +292,11 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-wrapper">
 <span id="hs-cta-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-node hs-cta-3e1ef674-5b56-4f1c-9a42-937c56361a23">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/3e1ef674-5b56-4f1c-9a42-937c56361a23"><img id="hs-cta-img-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/3e1ef674-5b56-4f1c-9a42-937c56361a23.png" alt="GO TO THE TUTORIALS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '3e1ef674-5b56-4f1c-9a42-937c56361a23', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '3e1ef674-5b56-4f1c-9a42-937c56361a23', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -321,16 +306,11 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-wrapper">
 <span id="hs-cta-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-node hs-cta-ea5031ae-f5e8-4ede-976f-9bec6b8725e1">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/ea5031ae-f5e8-4ede-976f-9bec6b8725e1" target="_blank"><img id="hs-cta-img-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/ea5031ae-f5e8-4ede-976f-9bec6b8725e1.png" alt="GO TO GITHUB" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'ea5031ae-f5e8-4ede-976f-9bec6b8725e1', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'ea5031ae-f5e8-4ede-976f-9bec6b8725e1', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -340,16 +320,11 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-wrapper">
 <span id="hs-cta-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-node hs-cta-e5d68c77-42dc-4aff-b2da-6e3cb875e312">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e5d68c77-42dc-4aff-b2da-6e3cb875e312" target="_blank"><img id="hs-cta-img-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e5d68c77-42dc-4aff-b2da-6e3cb875e312.png" alt="API DOCUMENTATION" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'e5d68c77-42dc-4aff-b2da-6e3cb875e312', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'e5d68c77-42dc-4aff-b2da-6e3cb875e312', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -359,16 +334,11 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-wrapper">
 <span id="hs-cta-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-node hs-cta-457328f6-8788-4b69-b58c-2920d2da856d">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/457328f6-8788-4b69-b58c-2920d2da856d" target="_blank"><img id="hs-cta-img-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/457328f6-8788-4b69-b58c-2920d2da856d.png" alt="CHECK OUT WILDFIRE" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '457328f6-8788-4b69-b58c-2920d2da856d', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '457328f6-8788-4b69-b58c-2920d2da856d', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -388,16 +358,11 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
 <span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 

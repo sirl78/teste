@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-1-routing-and-request-handling/
 published: true
 sidebar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 footer:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+  - header_transparent
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading tag='h1' padding='10' heading='Routing and Request Handling' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='subheading_above' subheading_size='22' custom_class='']

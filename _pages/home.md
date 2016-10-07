@@ -21,7 +21,6 @@ header_transparency:
 [/av_slideshow_full]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading heading='Built for Productivity' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='15' padding='10' color='' custom_font=''][/av_heading]
@@ -51,7 +50,11 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
+[/av_one_full]
+[/av_section]
+
+[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Features' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -62,7 +65,7 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 
 [av_heading tag='h2' padding='10' heading='Full user guide and <a href="https://www.dartdocs.org/documentation/aqueduct/0.9.0/index.html" target="_blank">API documentation</a>' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
-[av_hr class='invisible' height='40' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[av_hr class='invisible' height='60' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
 [av_codeblock wrapper_element='' wrapper_element_attributes='']
 <!--HubSpot Call-to-Action Code -->
@@ -238,9 +241,8 @@ return new Response.ok(createdThings);</code></pre>
 [/av_textblock]
 
 [/av_one_third][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-[/av_section]
 
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Why Aqueduct for Dart' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]

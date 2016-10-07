@@ -5,7 +5,7 @@ author: Jorge Vieira
 post_date: 2016-08-09 10:24:54
 post_excerpt: ""
 layout: page
-permalink: https://aqueduct.io/home/
+permalink: https://aqueduct.io/
 published: true
 sidebar:
   - ""

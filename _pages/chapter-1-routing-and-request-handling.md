@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-1-routing-and-request-handling/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading tag='h1' padding='10' heading='Routing and Request Handling' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='subheading_above' subheading_size='22' custom_class='']
@@ -83,7 +83,7 @@ Next, you will fetch the dependencies of the <code class="highlighter-rouge">qui
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-bash" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">pub get</pre>
+<pre class="prettyprint lang-bash">pub get</pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -93,7 +93,7 @@ With this dependency installed, your project can use <code class="highlighter-ro
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:aqueduct/aqueduct.dart';</pre>
+<pre class="prettyprint lang-dart">import 'package:aqueduct/aqueduct.dart';</pre>
 [/av_textblock]
 
 [av_heading tag='h2' padding='10' heading='<span id="handling-requests">1.3 Handling Requests</span>' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -103,7 +103,7 @@ The structure of <code class="highlighter-rouge">aqueduct</code> is like most se
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuestionController extends HTTPController {
+<pre class="prettyprint lang-dart">class QuestionController extends HTTPController {
   var questions = [
     "How much wood can a woodchuck chuck?",
     "What's the tallest mountain in the world?"
@@ -128,7 +128,7 @@ Right now, this <code class="highlighter-rouge">QuestionController</code> doesnâ
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuizPipeline extends ApplicationPipeline {
+<pre class="prettyprint lang-dart">class QuizPipeline extends ApplicationPipeline {
   QuizPipeline(Map options) : super (options);
 }</pre>
 [/av_textblock]
@@ -140,7 +140,7 @@ Aside from the constructor, a pipeline must implement the method <code class="hi
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuizPipeline extends ApplicationPipeline {
+<pre class="prettyprint lang-dart">class QuizPipeline extends ApplicationPipeline {
   QuizPipeline(Map options) : super (options);
 
   @override
@@ -159,7 +159,7 @@ With a pipeline and a route hooked up, we can write code that starts the web ser
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:aqueduct/aqueduct.dart';
+<pre class="prettyprint lang-dart">import 'package:aqueduct/aqueduct.dart';
 
 void main() {
   var app = new Application();
@@ -172,7 +172,7 @@ To run the application if you are using Atom, you can right-click on <code class
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-bash" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">pub run quiz</pre>
+<pre class="prettyprint lang-bash">pub run quiz</pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -190,7 +190,7 @@ With the exception of routers, <code class="highlighter-rouge">RequestHandler</c
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">handlerA
+<pre class="prettyprint lang-dart">handlerA
 	.next(handlerB)
 	.next(handlerC)
 	.next(handlerD);</pre>
@@ -201,7 +201,7 @@ This chaining is <em>always</em> declared in the <code class="highlighter-rouge"
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">handlerA
+<pre class="prettyprint lang-dart">handlerA
 	.next(handlerB)
 	.next(() =&gt; new HandlerC());</pre>
 [/av_textblock]
@@ -229,7 +229,7 @@ In <code class="highlighter-rouge">quiz.dart</code>, modify the code in the pipe
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">  @override
+<pre class="prettyprint lang-dart">  @override
   void addRoutes() {
 	   router
 		   .route("/questions/[:index]")
@@ -244,7 +244,7 @@ When using path variables, you may optionally restrict which values they match w
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">  @override
+<pre class="prettyprint lang-dart">  @override
   void addRoutes() {
 	   router
 		   .route("/questions/[:index(d+)]")
@@ -257,7 +257,7 @@ Now, there are two types of requests that will get forwarded to a <code class="h
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuestionController extends HTTPController {
+<pre class="prettyprint lang-dart">class QuestionController extends HTTPController {
   var questions = [
     "How much wood can a woodchuck chuck?",
     "What's the tallest mountain in the world?"
@@ -315,16 +315,11 @@ Isolates will spread themselves out across CPUs on the host machine. Having mult
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-6510a742-026a-47e8-8229-cddc75fc86f6" class="hs-cta-wrapper">
 <span id="hs-cta-6510a742-026a-47e8-8229-cddc75fc86f6" class="hs-cta-node hs-cta-6510a742-026a-47e8-8229-cddc75fc86f6">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/6510a742-026a-47e8-8229-cddc75fc86f6"><img id="hs-cta-img-6510a742-026a-47e8-8229-cddc75fc86f6" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/6510a742-026a-47e8-8229-cddc75fc86f6.png" alt="CHAPTER 2: WRITING TESTS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '6510a742-026a-47e8-8229-cddc75fc86f6', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '6510a742-026a-47e8-8229-cddc75fc86f6', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -344,16 +339,11 @@ Isolates will spread themselves out across CPUs on the host machine. Having mult
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
 <span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 

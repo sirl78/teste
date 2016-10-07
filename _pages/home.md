@@ -5,25 +5,26 @@ author: Jorge Vieira
 post_date: 2016-08-09 10:24:54
 post_excerpt: ""
 layout: page
-permalink: https://aqueduct.io/
+permalink: https://aqueduct.io/home/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_slideshow_full size='no scaling' stretch='' animation='slide' autoplay='false' interval='5' control_layout='av-control-default' src='' attachment='' attachment_size='' position='top left' repeat='no-repeat' attach='scroll']
 [av_slide_full slide_type='image' id='122' video='' mobile_image='' video_format='' video_ratio='' title='' custom_title_size='' custom_content_size='' caption_pos='caption_right caption_right_framed caption_framed' link_apply='' link='lightbox' link_target='' button_label='' button_color='light' link1='manually,http://' link_target1='' button_label2='' button_color2='light' link2='manually,http://' link_target2='' font_color='' custom_title='' custom_content='' overlay_opacity='0.1' overlay_color='' overlay_pattern='' overlay_custom_pattern=''][/av_slide_full]
 [/av_slideshow_full]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_heading tag='h1' padding='10' heading='Built for Productivity' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+[av_heading heading='Built for Productivity' tag='h1' style='blockquote modern-quote modern-centered' size='45' subheading_active='' subheading_size='15' padding='10' color='' custom_font=''][/av_heading]
 
 [/av_one_full][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
@@ -50,10 +51,7 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_full]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
+[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Features' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]

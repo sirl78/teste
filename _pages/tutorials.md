@@ -132,7 +132,7 @@ The best way to get started
 
 [av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 
-[av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test-1030x773.jpg' attachment='91' attachment_size='large' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
+[av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test2.jpg' attachment='191' attachment_size='full' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
 

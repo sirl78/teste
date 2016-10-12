@@ -17,14 +17,14 @@ header_transparency:
   - ""
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
-
 [av_heading tag='h1' padding='10' heading=' Tutorials' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='22' custom_class='']
 Chapter 2
 [/av_heading]
 
 [av_hr class='invisible' height='20' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[/av_section]
 
-[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_textblock size='' font_color='' color='']
@@ -131,7 +131,8 @@ The best way to get started
 [/av_section]
 
 [av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
-[av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test.jpg' attachment='91' attachment_size='full' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
+
+[av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test-1030x773.jpg' attachment='91' attachment_size='large' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
 
@@ -147,10 +148,7 @@ Chapter 1
 
 [av_hr class='invisible' height='30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][/av_cell_one_half]
-[/av_layout_row]
-
-[av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_one_full][/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='30px' padding_sync='true' background_color='' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']

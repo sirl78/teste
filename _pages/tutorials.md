@@ -146,7 +146,7 @@ Chapter 1
 
 [av_button label='SEE THE TUTORIAL' link='page,38' link_target='' size='x-large' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='theme-color' custom_bg='#444444' custom_font='#ffffff']
 
-[av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[av_hr class='invisible' height='90' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
 [/av_one_full][/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='30px' padding_sync='true' background_color='' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']

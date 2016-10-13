@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-4-model-relationships-and-joins/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading heading=' Model Relationships and Joins' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_above' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
@@ -26,6 +26,7 @@ Chapter 4
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_sidebar widget_area='Tutorial 4']
@@ -39,16 +40,15 @@ Model objects can also have relationships to other model objects. There are two 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">part of quiz;
-
+<pre><code class="language-dart">part of quiz;
 class _Answer {
-  @primaryKey
-  int id;
+@primaryKey
+int id;
 
-  String description;
+String description;
 }
 class Answer extends Model&lt;_Answer&gt; implements _Answer {}
-class AnswerQuery extends ModelQuery&lt;Answer&gt; implements _Answer {}</pre>
+class AnswerQuery extends ModelQuery implements _Answer {}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -56,7 +56,7 @@ Notice we created the persistent type, instance type and went ahead and created 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">part 'model/answer.dart';</pre>
+<pre><code class="language-dart">part 'model/answer.dart';</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -64,15 +64,13 @@ Now that we have a model class that represents both a question and answer, we wi
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class _Question {
+<pre><code class="language-dart">class _Question {
   @primaryKey
   int index;
-
-  String description;
-
-  @Relationship.hasOne("question")
-  Answer answer;
-}</pre>
+String description;
+@Relationship.hasOne("question")
+Answer answer;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -82,15 +80,14 @@ So, let’s set that up. In <code class="highlighter-rouge">_Answer</code>, add 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class _Answer {
+<pre><code class="language-dart">class _Answer {
   @primaryKey
   int id;
+String description;
 
-  String description;
-
-  @Relationship.belongsTo("answer")
-  Question question;
-}</pre>
+@Relationship.belongsTo("answer")
+Question question;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -98,7 +95,7 @@ Notice that the inverse has a relationship type of <code class="highlighter-roug
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class _Answer {
+<pre><code class="language-dart">class _Answer {
   @primaryKey
   int id;
 
@@ -106,7 +103,7 @@ Notice that the inverse has a relationship type of <code class="highlighter-roug
 
   @Relationship.belongsTo("answer", deleteRule: RelationshipDeleteRule.cascade, required: true)
   Question question;
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -116,7 +113,7 @@ Now that we have defined this relationship, we can associate answers with questi
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@httpGet getAllQuestions({String contains: null}) async {
+<pre><code class="language-dart">@httpGet getAllQuestions({String contains: null}) async {
   var questionQuery = new QuestionQuery()
     ..answer = whereAnyMatch;
   if (contains != null) {
@@ -124,7 +121,7 @@ Now that we have defined this relationship, we can associate answers with questi
   }
   var questions = await questionQuery.fetch();
   return new Response.ok(questions);
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -132,14 +129,14 @@ Yeah, that was it. The matcher <code class="highlighter-rouge">whereAnyMatch</co
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-json" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">{
+<pre><code class="language-dart">{
   "index" : 1,
   "description" : "A question?",
   "answer" : {
       "id" : 1,
       "description" : "An answer"
   }
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -147,7 +144,7 @@ Let’s update our tests to ensure this works correctly. If you run your tests n
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions returns list of questions", () async {
+<pre><code class="language-dart">test("/questions returns list of questions", () async {
     var response = await client.request("/questions").get();
     expect(response, hasResponse(200, everyElement({
         "index" : greaterThanOrEqualTo(0),
@@ -157,7 +154,7 @@ Let’s update our tests to ensure this works correctly. If you run your tests n
         })
     })));
     expect(response.decodedBody, hasLength(greaterThan(0)));
-  });</pre>
+  });</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -165,7 +162,7 @@ The partial matcher here will just check to see if the ‘answer’ key is a map
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var questions = [
+<pre><code class="language-dart">var questions = [
   "How much wood can a woodchuck chuck?",
   "What's the tallest mountain in the world?"
 ];
@@ -184,7 +181,7 @@ for (var question in questions) {
     ..values.description = answersIterator.current
     ..values.question = question;
   await insertQuery.insert();
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -192,9 +189,9 @@ Notice that we took the result of the question insert - which returns an instanc
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">insertQuery = new AnswerQuery()
+<pre><code class="language-dart">insertQuery = new AnswerQuery()
   ..values.description = answersIterator.current
-  ..values.question = (new Question()..index = 1);</pre>
+  ..values.question = (new Question()..index = 1);</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -202,7 +199,7 @@ Now, running the tests against, the first one will succeed again. Update the las
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions returns list of questions filtered by contains", () async {
+<pre><code class="language-dart">test("/questions returns list of questions filtered by contains", () async {
   var response = await client.request("/questions?contains=mountain").get();
   expect(response, hasResponse(200, [{
       "index" : greaterThanOrEqualTo(0),
@@ -212,7 +209,7 @@ Now, running the tests against, the first one will succeed again. Update the las
       })
   }]));
   expect(response.decodedBody, hasLength(1));
-});</pre>
+});</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -226,15 +223,15 @@ As relationships and joins are a complex topic, you may want to read the corresp
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class _Question {
+<pre><code class="language-dart">class _Question {
   @primaryKey
   int index;
 
   String description;
 
   @Relationship.hasMany("question")
-  List&lt;Answer&gt; answers;
-}</pre>
+  List answers;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -244,10 +241,10 @@ Join queries can be nested indefinitely, and can have their own matchers applied
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var query = new UserQuery()
+<pre><code class="language-dart">var query = new UserQuery()
     ..id = whereEqualTo(24)
     ..posts.single.postDate = whereGreaterThanEqualTo(new DateTime(2016).toUtc())
-    ..posts.single.likers.single.name = whereContains("Fred");</pre>
+    ..posts.single.likers.single.name = whereContains("Fred");</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -255,7 +252,7 @@ Which, when fetched and then encoded to JSON, would look something like this:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-json" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">{
+<pre><code class="language-dart">{
     "id" : 24,
     "name" : "Somebody",
     "posts" : [{
@@ -266,14 +263,10 @@ Which, when fetched and then encoded to JSON, would look something like this:
             "name" : "Fred Freddieson"
         ]}
     }]
-}</pre>
+}</code></pre>
 [/av_textblock]
 
-[/av_three_fourth]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-
+[/av_three_fourth][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [/av_one_fourth][av_three_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
@@ -302,8 +295,10 @@ Which, when fetched and then encoded to JSON, would look something like this:
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+[/av_one_full]
+[/av_section]
 
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h2' padding='10' heading='Get Aqueduct News ' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -331,4 +326,5 @@ Which, when fetched and then encoded to JSON, would look something like this:
 
 [/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[/av_one_fourth][/av_section]
+[/av_one_fourth]
+[/av_section]

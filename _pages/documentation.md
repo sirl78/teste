@@ -8,13 +8,13 @@ layout: page
 permalink: https://aqueduct.io/documentation/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 
@@ -39,16 +39,11 @@ Once familiar with Aqueduct, it’s best to create new projects using <a href="h
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-wrapper">
 <span id="hs-cta-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-node hs-cta-457328f6-8788-4b69-b58c-2920d2da856d">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/457328f6-8788-4b69-b58c-2920d2da856d" target="_blank"><img id="hs-cta-img-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/457328f6-8788-4b69-b58c-2920d2da856d.png" alt="CHECK OUT WILDFIRE" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '457328f6-8788-4b69-b58c-2920d2da856d', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '457328f6-8788-4b69-b58c-2920d2da856d', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -58,16 +53,11 @@ Once familiar with Aqueduct, it’s best to create new projects using <a href="h
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-wrapper">
 <span id="hs-cta-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-node hs-cta-ea5031ae-f5e8-4ede-976f-9bec6b8725e1">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/ea5031ae-f5e8-4ede-976f-9bec6b8725e1" target="_blank"><img id="hs-cta-img-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/ea5031ae-f5e8-4ede-976f-9bec6b8725e1.png" alt="GO TO GITHUB" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'ea5031ae-f5e8-4ede-976f-9bec6b8725e1', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'ea5031ae-f5e8-4ede-976f-9bec6b8725e1', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -77,16 +67,11 @@ Once familiar with Aqueduct, it’s best to create new projects using <a href="h
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-wrapper">
 <span id="hs-cta-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-node hs-cta-e5d68c77-42dc-4aff-b2da-6e3cb875e312">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e5d68c77-42dc-4aff-b2da-6e3cb875e312" target="_blank"><img id="hs-cta-img-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e5d68c77-42dc-4aff-b2da-6e3cb875e312.png" alt="API DOCUMENTATION" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'e5d68c77-42dc-4aff-b2da-6e3cb875e312', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'e5d68c77-42dc-4aff-b2da-6e3cb875e312', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -104,16 +89,11 @@ The first chapter is a quick read and covers installing Dart and Aqueduct. If yo
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-b1063277-d61b-425a-8dcd-d8c70caac2c4" class="hs-cta-wrapper">
 <span id="hs-cta-b1063277-d61b-425a-8dcd-d8c70caac2c4" class="hs-cta-node hs-cta-b1063277-d61b-425a-8dcd-d8c70caac2c4">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/b1063277-d61b-425a-8dcd-d8c70caac2c4" target="_blank"><img id="hs-cta-img-b1063277-d61b-425a-8dcd-d8c70caac2c4" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/b1063277-d61b-425a-8dcd-d8c70caac2c4.png" alt="TAKE THE DART TOUR" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'b1063277-d61b-425a-8dcd-d8c70caac2c4', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'b1063277-d61b-425a-8dcd-d8c70caac2c4', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -263,16 +243,11 @@ Just add the following to your <span style="font-family: Lucida Console;">pubspe
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
 <span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 

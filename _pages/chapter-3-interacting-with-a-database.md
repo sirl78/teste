@@ -168,14 +168,16 @@ You’ll notice in your pipeline, the configuration parameters for the <code cla
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">setUpAll(() async {
   await app.start(runOnMainIsolate: true);
-var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
-var json = generator.serialized;
-var pGenerator = new PostgreSQLSchemaGenerator(json, temporary: true);
 
-for (var cmd in pGenerator.commands) {
-await ModelContext.defaultContext.persistentStore.execute(cmd);
-}
-});</code></pre>
+  var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
+  var json = generator.serialized;
+  var pGenerator = new PostgreSQLSchemaGenerator(json, temporary: true);
+
+  for (var cmd in pGenerator.commands) {
+    await ModelContext.defaultContext.persistentStore.execute(cmd);
+  }
+});
+</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -200,7 +202,7 @@ Now, if you run your tests, two of them will fail and one of them really should 
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
   expect(response.decodedBody, hasLength(greaterThan(0)));
-})
+});</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -209,7 +211,7 @@ You can access the String body of a <code class="highlighter-rouge">TestResponse
 Ok, good, back to all tests failing - as they should, because there are no <code class="highlighter-rouge">Question</code>s in the database and the old <code class="highlighter-rouge">getQuestionAtIndex</code> doesn’t yet use a database query. Let’s first seed the database with some questions using an insert query at the end of <code class="highlighter-rouge">setUpAll</code>.
 [/av_textblock]
 
-[av_textblock size='' font_color='' color='']</code></pre>
+[av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">setUpAll(() async {
   await app.start(runOnMainIsolate: true);
   var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
@@ -251,10 +253,7 @@ When a <code class="highlighter-rouge">hasResponse</code> matcher fails, it prin
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
-  expect(response, hasResponse(200, everyElement({
-      "index" : greaterThan(0),
-      "description" : endsWith("?")
-  })));
+  expect(response, hasResponse(200, everyElement(endsWith("?"))));
   expect(response.decodedBody, hasLength(greaterThan(0)));
 });</code></pre>
 [/av_textblock]

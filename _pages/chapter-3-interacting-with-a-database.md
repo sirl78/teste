@@ -153,10 +153,10 @@ Once it starts running, its icon (an elephant) will appear in your menu bar. Sel
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-sql" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">create database dart_test;
+<pre><code class="language-dart">create database dart_test;
 create user dart with createdb;
 alter user dart with password 'dart';
-grant all on database dart_test to dart;</pre>
+grant all on database dart_test to dart;&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -165,17 +165,16 @@ OK, great, you’re done. (You’ll want to add Postgres.app to your Startup Ite
 You’ll notice in your pipeline, the configuration parameters for the <code class="highlighter-rouge">PostgreSQLPersistentStore</code> match those that you have just added to your local instance of Postgres, so your application will run against that instance. However, if you were to run your code now, the table backing <code class="highlighter-rouge">Question</code>s would not exist. If we are running tests, we need to create a temporary table for <code class="highlighter-rouge">Question</code>s before the tests start. Go to the <code class="highlighter-rouge">setUpAll</code> method in <code class="highlighter-rouge">question_controller_test.dart</code>, and enter the following code after the application is started:
 [/av_textblock]
 
-[av_textblock size='' font_color='' color='']
+[av_textblock size='' font_color='' color='']</code></pre>
 <pre><code class="language-dart">setUpAll(() async {
   await app.start(runOnMainIsolate: true);
+var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
+var json = generator.serialized;
+var pGenerator = new PostgreSQLSchemaGenerator(json, temporary: true);
 
-  var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
-  var json = generator.serialized;
-  var pGenerator = new PostgreSQLSchemaGenerator(json, temporary: true);
-
-  for (var cmd in pGenerator.commands) {
-    await ModelContext.defaultContext.persistentStore.execute(cmd);
-  }
+for (var cmd in pGenerator.commands) {
+await ModelContext.defaultContext.persistentStore.execute(cmd);
+}
 });</code></pre>
 [/av_textblock]
 

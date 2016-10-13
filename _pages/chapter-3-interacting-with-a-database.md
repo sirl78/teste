@@ -48,13 +48,13 @@ A model is made up of two classes, its instance type and its persistent type. In
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">part of quiz;</code></pre>
+<pre><code class="language-dart">part of quiz;
 class _Question {
 @primaryKey
 int index;
 
 String description;
-}
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -76,7 +76,7 @@ Once a persistent type has been defined, you must define an instance type. At th
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">part of quiz;
 
-class Question extends Model implements _Question {}
+class Question extends Model&lt;_Question&gt; implements _Question {}
 
 class _Question {
   @primaryKey

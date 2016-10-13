@@ -387,6 +387,7 @@ This will pass, too - along with the rest of them! Don’t worry, you don’t ha
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [/av_one_fourth][av_three_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
@@ -397,22 +398,4 @@ This will pass, too - along with the rest of them! Don’t worry, you don’t ha
 
 [av_hr class='invisible' height='-30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-e53340ce-ecb6-48b0-a04d-f994905ba369" class="hs-cta-wrapper">
-<span id="hs-cta-e53340ce-ecb6-48b0-a04d-f994905ba369" class="hs-cta-node hs-cta-e53340ce-ecb6-48b0-a04d-f994905ba369">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e53340ce-ecb6-48b0-a04d-f994905ba369"><img id="hs-cta-img-e53340ce-ecb6-48b0-a04d-f994905ba369" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e53340ce-ecb6-48b0-a04d-f994905ba369.png" alt="CHAPTER 4: MODEL RELATIONSHIPS AND JOINS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'e53340ce-ecb6-48b0-a04d-f994905ba369', {});
-    </script>
-</span>
-&lt;!-- end HubSpot Call-to-Action Code —&gt;
-[/av_codeblock]
-
-[/av_one_full]
-[/av_section]
+[/av_one_full][/av_section]

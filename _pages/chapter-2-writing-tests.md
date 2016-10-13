@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-2-writing-tests/
 published: true
 sidebar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 footer:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_title_bar:
-  - 'a:1:{i:0;s:16:"hidden_title_bar";}'
+  - ""
 header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading heading='Writing Tests' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_above' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
@@ -26,6 +26,7 @@ Chapter 2
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_sidebar widget_area='Tutorial 2']
@@ -43,13 +44,12 @@ In general, testing in Dart is simple: you write a <code class="highlighter-roug
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">import 'package:test/test.dart';
-
+<pre><code class="language-dart">import 'package:test/test.dart';
 void main() {
-  test("1+1 = 2", () {
-    expect(1 + 1, equals(2));
-  });
-}</pre>
+test("1+1 = 2", () {
+expect(1 + 1, equals(2));
+});
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -57,10 +57,9 @@ Tests are made possible by the <code class="highlighter-rouge">test</code> packa
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">dev_dependencies:
-  test: '&gt;=0.12.0 &lt;0.13.0'</pre>
-[/av_textblock]
-
+<pre><code class="language-dart">dev_dependencies:
+  test: '&gt;=0.12.0 &lt;0.13.0'&lt;\code&gt;&lt;\pre&gt;
+[/av_textblock]</code></pre>
 [av_textblock size='' font_color='' color='']
 Now, get the dependencies again by right-clicking on any project file and selecting ‘Pub Get’. (Or run <code class="highlighter-rouge">pub get</code> from the command line in the <code class="highlighter-rouge">quiz</code> directory.)
 [/av_textblock]
@@ -72,13 +71,12 @@ Last chapter, we just threw everything in a single file to get started. To test,
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">library quiz;
-
+<pre><code class="language-dart">library quiz;</code></pre>
 import 'package:aqueduct/aqueduct.dart';
 export 'package:aqueduct/aqueduct.dart';
 
 part 'controller/question_controller.dart';
-part 'pipeline.dart';</pre>
+part 'pipeline.dart';&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -86,26 +84,25 @@ You’ll get some warnings because <code class="highlighter-rouge">controller/qu
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">part of quiz;
-
+<pre><code class="language-dart">part of quiz;</code></pre>
 class QuestionController extends HttpController {
-  var questions = [
-		"How much wood can a woodchuck chuck?",
-		"What's the tallest mountain in the world?"
-	];
+var questions = [
+"How much wood can a woodchuck chuck?",
+"What's the tallest mountain in the world?"
+];
 
-  @httpGet getAllQuestions() async {
-    return new Response.ok(questions);
-  }
+@httpGet getAllQuestions() async {
+return new Response.ok(questions);
+}
 
-  @httpGet getQuestionAtIndex(int index) async {
-    if (index &lt; 0 || index &gt;= questions.length) {
-      return new Response.notFound();
-    }
+@httpGet getQuestionAtIndex(int index) async {
+if (index &lt; 0 || index &gt;= questions.length) {
+return new Response.notFound();
+}
 
-    return new Response.ok(questions[index]);
-  }
-}</pre>
+return new Response.ok(questions[index]);
+}
+}&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -113,17 +110,16 @@ Next, create a new file at <code class="highlighter-rouge">lib/pipeline.dart</co
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">part of quiz;
-
+<pre><code class="language-dart">part of quiz;</code></pre>
 class QuizPipeline extends ApplicationPipeline {
-  QuizPipeline(Map options) : super(options);
+QuizPipeline(Map options) : super(options);
 
-  void addRoutes() {
-    router
-      .route("/questions/[:index(\d+)]")
-      .next(() =&gt; new QuestionController());
-  }
-}</pre>
+void addRoutes() {
+router
+.route("/questions/[:index(\\d+)]")
+.next(() =&gt; new QuestionController());
+}
+}&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -131,13 +127,12 @@ Now that you’ve moved the definition of your quiz application to a library, yo
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">import 'package:quiz/quiz.dart';
-
+<pre><code class="language-dart">import 'package:quiz/quiz.dart';</code></pre>
 void main() {
-  var app = new Application&lt;QuizPipeline&gt;();
+var app = new Application();
 
-  app.start();
-}</pre>
+app.start();
+}&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -153,26 +148,24 @@ In Dart, tests are stored in a top-level <code class="highlighter-rouge">test</c
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">import 'package:test/test.dart';
-import 'package:quiz/quiz.dart';</pre>
-[/av_textblock]
-
+<pre><code class="language-dart">import 'package:test/test.dart';
+import 'package:quiz/quiz.dart';&lt;\code&gt;&lt;\pre&gt;
+[/av_textblock]</code></pre>
 [av_textblock size='' font_color='' color='']
 The way <code class="highlighter-rouge">aqueduct</code> accomplishes testing is by starting an entire application, running the tests, then stopping the application. The <code class="highlighter-rouge">Application</code> class is set up to handle this quite nicely, and in later chapters, we’ll see that there some other tools for making that easy as an application continues to grow. A Dart test file can declare a <code class="highlighter-rouge">setUpAll</code> and <code class="highlighter-rouge">tearDownAll</code> method to run before and after all tests. After the import statements, add a <code class="highlighter-rouge">main</code> function with the appropriate setup and teardown code:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">void main() {
-  var app = new Application&lt;QuizPipeline&gt;();
+<pre><code class="language-dart">void main() {
+  var app = new Application();</code></pre>
+setUpAll(() async {
+await app.start(runOnMainIsolate: true);
+});
 
-  setUpAll(() async {
-    await app.start(runOnMainIsolate: true);
-  });
-
-  tearDownAll(() async {
-    await app.stop();
-  });
-}</pre>
+tearDownAll(() async {
+await app.stop();
+});
+}&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -184,24 +177,22 @@ Now, we need to add a test to verify that hitting the <code class="highlighter-r
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">void main() {
-  var app = new Application&lt;QuizPipeline&gt;();
+<pre><code class="language-dart">void main() {
+  var app = new Application();
   var client = new TestClient(app.configuration.port);
-...</pre>
-[/av_textblock]
-
+...&lt;\code&gt;&lt;\pre&gt;
+[/av_textblock]</code></pre>
 [av_textblock size='' font_color='' color='']
 A <code class="highlighter-rouge">TestClient</code> will execute HTTP requests on your behalf in your tests, and is configured to point at the running application. Testing an <code class="highlighter-rouge">aqueduct</code> application is generally two steps: make a request and then verify you got the response you wanted. Let’s create a new test and do the first step. Near the end of main, add the following test:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">void main() {
-  ...
-
-  test("/questions returns list of questions", () async {
-    var response = await client.request("/questions").get();
-  });
-}</pre>
+<pre><code class="language-dart">void main() {
+  ...</code></pre>
+test("/questions returns list of questions", () async {
+var response = await client.request("/questions").get();
+});
+}&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -211,20 +202,18 @@ The value of <code class="highlighter-rouge">response</code> in the previous cod
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">  expect(response, hasStatus(404));</pre>
-[/av_textblock]
-
+<pre><code class="language-dart">  expect(response, hasStatus(404));&lt;\code&gt;&lt;\pre&gt;
+[/av_textblock]</code></pre>
 [av_textblock size='' font_color='' color='']
 But here, we want to verify that we get back a 200 and that the response body is a list of questions. Add the following code to the end of the test:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">test("/questions returns list of questions", () async {
+<pre><code class="language-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
-});</pre>
-[/av_textblock]
-
+});&lt;\code&gt;&lt;\pre&gt;
+[/av_textblock]</code></pre>
 [av_textblock size='' font_color='' color='']
 Now, make sure you shut down your application if you were running it from a previous chapter. To run a test file in Atom, you can do two things: manually hit Cmd-Shift-P and type in run test or use the keyboard shortcut, Cmd-Option-Ctrl-T. The test results will appear in a panel. (Make sure you save your test file first! Oh, and you can also run the tests just by running the test file in the same way you ran the quiz.dart file. Atom currently isn’t great at displaying test results. A more powerful option is IntelliJ IDEA Community Edition, but Atom is a lot friendlier for a tutorial.)
 [/av_textblock]
@@ -240,71 +229,18 @@ Let’s write two more tests - first, that getting a specific question returns a
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart">test("/questions/index returns a single question", () async {
+<pre><code class="language-dart">test("/questions/index returns a single question", () async {
   var response = await client.request("/questions/0").get();
   expect(response, hasResponse(200, endsWith("?")));
-});
-
+});</code></pre>
 test("/questions/index out of range returns 404", () async {
-  var response = await client.request("/questions/100").get();
-  expect(response, hasStatus(404));
-});</pre>
+var response = await client.request("/questions/100").get();
+expect(response, hasStatus(404));
+});&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
 Run the tests against, and they should all pass.
 [/av_textblock]
 
-[/av_three_fourth]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-
-[av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[/av_one_fourth][av_three_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_heading tag='h2' padding='10' heading='What Comes Next?' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[/av_three_fourth][av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_hr class='invisible' height='-30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-wrapper">
-<span id="hs-cta-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-node hs-cta-e9a8d607-af72-4aa1-8263-b8919aeb2eeb">
-<!-- [if lte IE 8]&gt;--></span></span>
-<div id="hs-cta-ie-element"></div>
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e9a8d607-af72-4aa1-8263-b8919aeb2eeb"><img id="hs-cta-img-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e9a8d607-af72-4aa1-8263-b8919aeb2eeb.png" alt="CHAPTER 3: INTERACTING WITH A DATABASE" /></a>
-
-hbspt.cta.load(706489, 'e9a8d607-af72-4aa1-8263-b8919aeb2eeb', {});
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
-
-[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
-[av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_heading tag='h2' padding='10' heading='Get Aqueduct News ' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[/av_one_full][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[/av_one_fourth][av_one_half min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
-<span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]&gt;--></span></span>
-<div id="hs-cta-ie-element"></div>
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-
-hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
-
-[/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[/av_one_fourth]
-[/av_section]
+[/av_three_fourth][/av_section]

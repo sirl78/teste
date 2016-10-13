@@ -200,7 +200,7 @@ Now, if you run your tests, two of them will fail and one of them really should 
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
   expect(response.decodedBody, hasLength(greaterThan(0)));
-});&lt;\code&gt;&lt;\pre&gt;
+})
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']

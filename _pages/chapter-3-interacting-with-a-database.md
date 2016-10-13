@@ -200,7 +200,7 @@ Now, if you run your tests, two of them will fail and one of them really should 
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
   expect(response.decodedBody, hasLength(greaterThan(0)));
-});</code></pre>
+});&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -209,28 +209,25 @@ You can access the String body of a <code class="highlighter-rouge">TestResponse
 Ok, good, back to all tests failing - as they should, because there are no <code class="highlighter-rouge">Question</code>s in the database and the old <code class="highlighter-rouge">getQuestionAtIndex</code> doesn’t yet use a database query. Let’s first seed the database with some questions using an insert query at the end of <code class="highlighter-rouge">setUpAll</code>.
 [/av_textblock]
 
-[av_textblock size='' font_color='' color='']
+[av_textblock size='' font_color='' color='']</code></pre>
 <pre><code class="language-dart">setUpAll(() async {
   await app.start(runOnMainIsolate: true);
   var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
   var json = generator.serialized;
   var pGenerator = new PostgreSQLSchemaGenerator(json, temporary: true);
-
-  for (var cmd in pGenerator.commands) {
-    await ModelContext.defaultContext.persistentStore.execute(cmd);
-  }
-
-  var questions = [
-    "How much wood can a woodchuck chuck?",
-    "What's the tallest mountain in the world?"
-  ];
-
-  for (var question in questions) {
-    var insertQuery = new Query()
-      ..values.description = question;
-    await insertQuery.insert();
-  }
-});</code></pre>
+for (var cmd in pGenerator.commands) {
+await ModelContext.defaultContext.persistentStore.execute(cmd);
+}
+var questions = [
+"How much wood can a woodchuck chuck?",
+"What's the tallest mountain in the world?"
+];
+for (var question in questions) {
+var insertQuery = new Query()
+..values.description = question;
+await insertQuery.insert();
+}
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -244,7 +241,7 @@ In our seeded test database, there will be two questions. If you re-run the test
 Expected:
   Status Code: 200
   Body: every element(a string ending with '?')
-  Actual: TestResponse:&lt; Status Code: 200 Headers: transfer-encoding: chunked content-encoding: gzip x-frame-options: SAMEORIGIN content-type: application/json; charset=utf-8 x-xss-protection: 1; mode=block x-content-type-options: nosniff server: aqueduct/1 Body: [{"index":1,"description":"How much wood can a woodchuck chuck?"},{"index":2,"description":"What's the tallest mountain in the world?"}]&gt;</code></pre>
+  Actual: TestResponse:&lt; Status Code: 200 Headers: transfer-encoding: chunked content-encoding: gzip x-frame-options: SAMEORIGIN content-type: application/json; charset=utf-8 x-xss-protection: 1; mode=block x-content-type-options: nosniff server: aqueduct/1 Body: [{"index":1,"description":"How much wood can a woodchuck chuck?"},{"index":2,"description":"What's the tallest mountain in the world?"}]</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']

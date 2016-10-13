@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-2-writing-tests/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - hidden_title_bar
+  - 'a:1:{i:0;s:16:"hidden_title_bar";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading heading='Writing Tests' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_above' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
@@ -43,7 +43,7 @@ In general, testing in Dart is simple: you write a <code class="highlighter-roug
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:test/test.dart';
+<pre class="prettyprint lang-dart">import 'package:test/test.dart';
 
 void main() {
   test("1+1 = 2", () {
@@ -57,7 +57,7 @@ Tests are made possible by the <code class="highlighter-rouge">test</code> packa
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">dev_dependencies:
+<pre class="prettyprint lang-dart">dev_dependencies:
   test: '&gt;=0.12.0 &lt;0.13.0'</pre>
 [/av_textblock]
 
@@ -72,7 +72,7 @@ Last chapter, we just threw everything in a single file to get started. To test,
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">library quiz;
+<pre class="prettyprint lang-dart">library quiz;
 
 import 'package:aqueduct/aqueduct.dart';
 export 'package:aqueduct/aqueduct.dart';
@@ -86,7 +86,7 @@ You’ll get some warnings because <code class="highlighter-rouge">controller/qu
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">part of quiz;
+<pre class="prettyprint lang-dart">part of quiz;
 
 class QuestionController extends HttpController {
   var questions = [
@@ -113,14 +113,14 @@ Next, create a new file at <code class="highlighter-rouge">lib/pipeline.dart</co
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">part of quiz;
+<pre class="prettyprint lang-dart">part of quiz;
 
 class QuizPipeline extends ApplicationPipeline {
   QuizPipeline(Map options) : super(options);
 
   void addRoutes() {
     router
-      .route("/questions/[:index(\\d+)]")
+      .route("/questions/[:index(\d+)]")
       .next(() =&gt; new QuestionController());
   }
 }</pre>
@@ -131,7 +131,7 @@ Now that you’ve moved the definition of your quiz application to a library, yo
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:quiz/quiz.dart';
+<pre class="prettyprint lang-dart">import 'package:quiz/quiz.dart';
 
 void main() {
   var app = new Application&lt;QuizPipeline&gt;();
@@ -153,7 +153,7 @@ In Dart, tests are stored in a top-level <code class="highlighter-rouge">test</c
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:test/test.dart';
+<pre class="prettyprint lang-dart">import 'package:test/test.dart';
 import 'package:quiz/quiz.dart';</pre>
 [/av_textblock]
 
@@ -162,7 +162,7 @@ The way <code class="highlighter-rouge">aqueduct</code> accomplishes testing is 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">void main() {
+<pre class="prettyprint lang-dart">void main() {
   var app = new Application&lt;QuizPipeline&gt;();
 
   setUpAll(() async {
@@ -184,7 +184,7 @@ Now, we need to add a test to verify that hitting the <code class="highlighter-r
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">void main() {
+<pre class="prettyprint lang-dart">void main() {
   var app = new Application&lt;QuizPipeline&gt;();
   var client = new TestClient(app.configuration.port);
 ...</pre>
@@ -195,7 +195,7 @@ A <code class="highlighter-rouge">TestClient</code> will execute HTTP requests o
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">void main() {
+<pre class="prettyprint lang-dart">void main() {
   ...
 
   test("/questions returns list of questions", () async {
@@ -211,7 +211,7 @@ The value of <code class="highlighter-rouge">response</code> in the previous cod
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">  expect(response, hasStatus(404));</pre>
+<pre class="prettyprint lang-dart">  expect(response, hasStatus(404));</pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -219,7 +219,7 @@ But here, we want to verify that we get back a 200 and that the response body is
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions returns list of questions", () async {
+<pre class="prettyprint lang-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
 });</pre>
@@ -240,7 +240,7 @@ Let’s write two more tests - first, that getting a specific question returns a
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions/index returns a single question", () async {
+<pre class="prettyprint lang-dart">test("/questions/index returns a single question", () async {
   var response = await client.request("/questions/0").get();
   expect(response, hasResponse(200, endsWith("?")));
 });
@@ -275,16 +275,11 @@ Run the tests against, and they should all pass.
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-wrapper">
 <span id="hs-cta-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-node hs-cta-e9a8d607-af72-4aa1-8263-b8919aeb2eeb">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e9a8d607-af72-4aa1-8263-b8919aeb2eeb"><img id="hs-cta-img-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e9a8d607-af72-4aa1-8263-b8919aeb2eeb.png" alt="CHAPTER 3: INTERACTING WITH A DATABASE" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'e9a8d607-af72-4aa1-8263-b8919aeb2eeb', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'e9a8d607-af72-4aa1-8263-b8919aeb2eeb', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -301,16 +296,11 @@ Run the tests against, and they should all pass.
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
 <span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 

@@ -76,7 +76,7 @@ Once a persistent type has been defined, you must define an instance type. At th
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">part of quiz;
 
-class Question extends Model&lt;_Question&gt; implements _Question {}
+class Question extends Model implements _Question {}
 
 class _Question {
   @primaryKey
@@ -103,10 +103,10 @@ In order for an application to work with a database, it needs a <code class="hig
     var persistentStore = new PostgreSQLPersistentStore.fromConnectionInfo("dart", "dart", "localhost", 5432, "dart_test");
     context = new ModelContext(dataModel, persistentStore);
   }
+ModelContext context;
 
-  ModelContext context;
-
-  ...</code></pre>
+...
+</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']

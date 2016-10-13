@@ -132,7 +132,7 @@ The best way to get started
 
 [av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 
-[av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test2.jpg' attachment='191' attachment_size='full' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
+[av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Chapter-1-Routing-and-Request-Handling-Aqueduct.jpg' attachment='202' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
 
@@ -149,6 +149,7 @@ Chapter 1
 [av_hr class='invisible' height='90' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
 [/av_one_full][/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+
 [av_cell_one_half vertical_align='middle' padding='30px' padding_sync='true' background_color='' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
@@ -161,14 +162,11 @@ Chapter 2
 
 [av_button label='SEE THE TUTORIAL' link='page,39' link_target='' size='x-large' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='theme-color' custom_bg='#444444' custom_font='#ffffff']
 
-[av_hr class='invisible' height='30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[av_hr class='invisible' height='90' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][/av_cell_one_half][av_cell_one_half vertical_align='top' padding='0px' padding_sync='true' background_color='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test.jpg' attachment='91' attachment_size='full' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='']
+[/av_one_full][/av_cell_one_half][av_cell_one_half vertical_align='top' padding='0px' padding_sync='true' background_color='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Chapter-2-Writing-Tests-Aqueduct-300x171.jpg' attachment='198' attachment_size='medium' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='']
 
-[/av_cell_one_half]
-[/av_layout_row]
-
-[av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/test.jpg' attachment='91' attachment_size='full' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']

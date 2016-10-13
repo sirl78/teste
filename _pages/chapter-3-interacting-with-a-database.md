@@ -217,19 +217,22 @@ Ok, good, back to all tests failing - as they should, because there are no <code
   var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
   var json = generator.serialized;
   var pGenerator = new PostgreSQLSchemaGenerator(json, temporary: true);
-for (var cmd in pGenerator.commands) {
-await ModelContext.defaultContext.persistentStore.execute(cmd);
-}
-var questions = [
-"How much wood can a woodchuck chuck?",
-"What's the tallest mountain in the world?"
-];
-for (var question in questions) {
-var insertQuery = new Query()
-..values.description = question;
-await insertQuery.insert();
-}
-}</code></pre>
+
+  for (var cmd in pGenerator.commands) {
+    await ModelContext.defaultContext.persistentStore.execute(cmd);
+  }
+
+  var questions = [
+    "How much wood can a woodchuck chuck?",
+    "What's the tallest mountain in the world?"
+  ];
+
+  for (var question in questions) {
+    var insertQuery = new Query()
+      ..values.description = question;
+    await insertQuery.insert();
+  }
+});</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -239,11 +242,10 @@ In our seeded test database, there will be two questions. If you re-run the test
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">
-Expected:
+<pre><code class="language-dart">Expected:
   Status Code: 200
   Body: every element(a string ending with '?')
-  Actual: TestResponse:&lt; Status Code: 200 Headers: transfer-encoding: chunked content-encoding: gzip x-frame-options: SAMEORIGIN content-type: application/json; charset=utf-8 x-xss-protection: 1; mode=block x-content-type-options: nosniff server: aqueduct/1 Body: [{"index":1,"description":"How much wood can a woodchuck chuck?"},{"index":2,"description":"What's the tallest mountain in the world?"}]</code></pre>
+  Actual: TestResponse:&lt; Status Code: 200 Headers: transfer-encoding: chunked content-encoding: gzip x-frame-options: SAMEORIGIN content-type: application/json; charset=utf-8 x-xss-protection: 1; mode=block x-content-type-options: nosniff server: aqueduct/1 Body: [{"index":1,"description":"How much wood can a woodchuck chuck?"},{"index":2,"description":"What's the tallest mountain in the world?"}]&gt;</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -253,7 +255,10 @@ When a <code class="highlighter-rouge">hasResponse</code> matcher fails, it prin
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
-  expect(response, hasResponse(200, everyElement(endsWith("?"))));
+  expect(response, hasResponse(200, everyElement({
+      "index" : greaterThan(0),
+      "description" : endsWith("?")
+  })));
   expect(response.decodedBody, hasLength(greaterThan(0)));
 });</code></pre>
 [/av_textblock]
@@ -334,7 +339,7 @@ Note that the type argument is <code class="highlighter-rouge">Question</code> -
     return new Response.notFound();
   }
   return new Response.ok(question);
-}&lt;\code&gt;&lt;\pre&gt;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -349,7 +354,7 @@ That’s fetch an insert. Delete works the same way - you specify a predicate, o
 You can specify that a <code class="highlighter-rouge">HTTPController</code> handler method extract HTTP query parameters for you and use them in the handler method. We’ll allow the <code class="highlighter-rouge">getAllQuestions</code> method to take a query parameter named <code class="highlighter-rouge">contains</code>. If this query parameter is passed, we’ll filter the questions on whether or not that question contains the value for <code class="highlighter-rouge">contains</code>. In <code class="highlighter-rouge">question_controller.dart</code>, update this method:
 [/av_textblock]
 
-[av_textblock size='' font_color='' color='']</code></pre>
+[av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">@httpGet getAllQuestions({String contains: null}) async {
     var questionQuery = new QuestionQuery();
     if (contains != null) {

@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/documentation/executing-queries/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 
@@ -426,16 +426,11 @@ Aqueduct will parameterize and reuse queries when possible. This allows for sign
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
 <span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 

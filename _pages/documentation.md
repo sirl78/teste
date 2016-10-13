@@ -25,7 +25,6 @@ Chapter 2
 [/av_section]
 
 [av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
-
 [av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Executing-Queries-Aqueduct.jpg' attachment='208' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
@@ -42,8 +41,10 @@ Chapter 1
 
 [av_hr class='invisible' height='30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_one_full][/av_cell_one_half]
+[/av_layout_row]
 
+[av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='30px' padding_sync='true' background_color='' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
@@ -60,8 +61,10 @@ Chapter 2
 
 [/av_one_full][/av_cell_one_half][av_cell_one_half vertical_align='top' padding='0px' padding_sync='true' background_color='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Header-Aqueduct.jpg' attachment='204' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='']
 
-[/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_cell_one_half]
+[/av_layout_row]
 
+[av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Inside-Datatbase-Aqueduct.jpg' attachment='205' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
@@ -78,8 +81,10 @@ Chapter 3
 
 [av_hr class='invisible' height='30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_one_full][/av_cell_one_half]
+[/av_layout_row]
 
+[av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='30px' padding_sync='true' background_color='' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
@@ -96,8 +101,10 @@ Chapter 4
 
 [/av_one_full][/av_cell_one_half][av_cell_one_half vertical_align='top' padding='0px' padding_sync='true' background_color='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Modeling-Your-Data-Aqueduct.jpg' attachment='206' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='']
 
-[/av_cell_one_half][/av_layout_row][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_cell_one_half]
+[/av_layout_row]
 
+[av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
 [av_cell_one_half vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Serialization-and-Deserialization-Aqueduct.jpg' attachment='207' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='stretch' mobile_display='av-hide-on-mobile']
 
 [/av_cell_one_half][av_cell_one_half vertical_align='top' padding='30px' padding_sync='true' background_color='#545355' src='' attachment='' attachment_size='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
@@ -114,27 +121,8 @@ Chapter 5
 
 [av_hr class='invisible' height='30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][/av_cell_one_half][/av_layout_row][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-[av_one_half first min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='' border_color='' radius='4px' radius_sync='true' background_color='#72c4d6' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[av_heading tag='h2' padding='10' heading='The quick and dirty way for Dart developers' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='24' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[av_textblock size='22' font_color='custom' color='#ffffff']
-<p style="text-align: center;">Just want to grab aqueduct and try it out?
-Just add the following to your <span style="font-family: Lucida Console;">pubspec.yaml</span>:</p>
-<p style="text-align: center; font-family: Lucida Console;">aqueduct: any</p>
-[/av_textblock]
-
-[/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='' border_color='' radius='4px' radius_sync='true' background_color='#72c4d6' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[av_heading tag='h2' padding='10' heading='The up-and-running way' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='24' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[av_textblock size='22' font_color='custom' color='#ffffff']
-<p style="text-align: center;">More of a learn as you go type? Follow the quick steps at <a href="https://github.com/stablekernel/wildfire" target="_blank">wildfire</a> to get a running web server, complete with authentication, database schema generation and documentation generation.</p>
-[/av_textblock]
-
-[/av_one_half]
-[/av_section]
+[/av_one_full][/av_cell_one_half]
+[/av_layout_row]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']

@@ -58,8 +58,9 @@ Tests are made possible by the <code class="highlighter-rouge">test</code> packa
 
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">dev_dependencies:
-  test: '&gt;=0.12.0 &lt;0.13.0'&lt;\code&gt;&lt;\pre&gt;
-[/av_textblock]</code></pre>
+  test: '&gt;=0.12.0 &lt;0.13.0'</code></pre>
+[/av_textblock]
+
 [av_textblock size='' font_color='' color='']
 Now, get the dependencies again by right-clicking on any project file and selecting ‘Pub Get’. (Or run <code class="highlighter-rouge">pub get</code> from the command line in the <code class="highlighter-rouge">quiz</code> directory.)
 [/av_textblock]
@@ -71,12 +72,12 @@ Last chapter, we just threw everything in a single file to get started. To test,
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">library quiz;</code></pre>
+<pre><code class="language-dart">library quiz;
 import 'package:aqueduct/aqueduct.dart';
 export 'package:aqueduct/aqueduct.dart';
 
 part 'controller/question_controller.dart';
-part 'pipeline.dart';&lt;\code&gt;&lt;\pre&gt;
+part 'pipeline.dart'</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -84,7 +85,7 @@ You’ll get some warnings because <code class="highlighter-rouge">controller/qu
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">part of quiz;</code></pre>
+<pre><code class="language-dart">part of quiz;
 class QuestionController extends HttpController {
 var questions = [
 "How much wood can a woodchuck chuck?",
@@ -102,7 +103,7 @@ return new Response.notFound();
 
 return new Response.ok(questions[index]);
 }
-}&lt;\code&gt;&lt;\pre&gt;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -110,7 +111,7 @@ Next, create a new file at <code class="highlighter-rouge">lib/pipeline.dart</co
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">part of quiz;</code></pre>
+<pre><code class="language-dart">part of quiz;
 class QuizPipeline extends ApplicationPipeline {
 QuizPipeline(Map options) : super(options);
 
@@ -119,7 +120,7 @@ router
 .route("/questions/[:index(\\d+)]")
 .next(() =&gt; new QuestionController());
 }
-}&lt;\code&gt;&lt;\pre&gt;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -127,12 +128,12 @@ Now that you’ve moved the definition of your quiz application to a library, yo
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">import 'package:quiz/quiz.dart';</code></pre>
+<pre><code class="language-dart">import 'package:quiz/quiz.dart';
 void main() {
 var app = new Application();
 
 app.start();
-}&lt;\code&gt;&lt;\pre&gt;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -149,15 +150,16 @@ In Dart, tests are stored in a top-level <code class="highlighter-rouge">test</c
 
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">import 'package:test/test.dart';
-import 'package:quiz/quiz.dart';&lt;\code&gt;&lt;\pre&gt;
-[/av_textblock]</code></pre>
+import 'package:quiz/quiz.dart';</code></pre>
+[/av_textblock]
+
 [av_textblock size='' font_color='' color='']
 The way <code class="highlighter-rouge">aqueduct</code> accomplishes testing is by starting an entire application, running the tests, then stopping the application. The <code class="highlighter-rouge">Application</code> class is set up to handle this quite nicely, and in later chapters, we’ll see that there some other tools for making that easy as an application continues to grow. A Dart test file can declare a <code class="highlighter-rouge">setUpAll</code> and <code class="highlighter-rouge">tearDownAll</code> method to run before and after all tests. After the import statements, add a <code class="highlighter-rouge">main</code> function with the appropriate setup and teardown code:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">void main() {
-  var app = new Application();</code></pre>
+  var app = new Application();
 setUpAll(() async {
 await app.start(runOnMainIsolate: true);
 });
@@ -165,7 +167,7 @@ await app.start(runOnMainIsolate: true);
 tearDownAll(() async {
 await app.stop();
 });
-}&lt;\code&gt;&lt;\pre&gt;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -180,19 +182,20 @@ Now, we need to add a test to verify that hitting the <code class="highlighter-r
 <pre><code class="language-dart">void main() {
   var app = new Application();
   var client = new TestClient(app.configuration.port);
-...&lt;\code&gt;&lt;\pre&gt;
-[/av_textblock]</code></pre>
+...</code></pre>
+[/av_textblock]
+
 [av_textblock size='' font_color='' color='']
 A <code class="highlighter-rouge">TestClient</code> will execute HTTP requests on your behalf in your tests, and is configured to point at the running application. Testing an <code class="highlighter-rouge">aqueduct</code> application is generally two steps: make a request and then verify you got the response you wanted. Let’s create a new test and do the first step. Near the end of main, add the following test:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
 <pre><code class="language-dart">void main() {
-  ...</code></pre>
+  ...
 test("/questions returns list of questions", () async {
 var response = await client.request("/questions").get();
 });
-}&lt;\code&gt;&lt;\pre&gt;
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -202,8 +205,9 @@ The value of <code class="highlighter-rouge">response</code> in the previous cod
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre><code class="language-dart">  expect(response, hasStatus(404));&lt;\code&gt;&lt;\pre&gt;
-[/av_textblock]</code></pre>
+<pre><code class="language-dart">  expect(response, hasStatus(404));</code></pre>
+[/av_textblock]
+
 [av_textblock size='' font_color='' color='']
 But here, we want to verify that we get back a 200 and that the response body is a list of questions. Add the following code to the end of the test:
 [/av_textblock]
@@ -212,8 +216,9 @@ But here, we want to verify that we get back a 200 and that the response body is
 <pre><code class="language-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
-});&lt;\code&gt;&lt;\pre&gt;
-[/av_textblock]</code></pre>
+});</code></pre>
+[/av_textblock]
+
 [av_textblock size='' font_color='' color='']
 Now, make sure you shut down your application if you were running it from a previous chapter. To run a test file in Atom, you can do two things: manually hit Cmd-Shift-P and type in run test or use the keyboard shortcut, Cmd-Option-Ctrl-T. The test results will appear in a panel. (Make sure you save your test file first! Oh, and you can also run the tests just by running the test file in the same way you ran the quiz.dart file. Atom currently isn’t great at displaying test results. A more powerful option is IntelliJ IDEA Community Edition, but Atom is a lot friendlier for a tutorial.)
 [/av_textblock]
@@ -232,11 +237,11 @@ Let’s write two more tests - first, that getting a specific question returns a
 <pre><code class="language-dart">test("/questions/index returns a single question", () async {
   var response = await client.request("/questions/0").get();
   expect(response, hasResponse(200, endsWith("?")));
-});</code></pre>
+});
 test("/questions/index out of range returns 404", () async {
 var response = await client.request("/questions/100").get();
 expect(response, hasStatus(404));
-});&lt;\code&gt;&lt;\pre&gt;
+})</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']

@@ -9,24 +9,23 @@ permalink: >
   https://aqueduct.io/documentation/database-integration/
 published: true
 sidebar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 footer:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
-
 [av_heading heading='Database Integration' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
 Chapter 2
 [/av_heading]
 
 [av_hr class='invisible' height='20' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[/av_section]
 
-[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [/av_one_fourth][av_three_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
@@ -42,9 +41,12 @@ Aqueduct is capable of integrating with a database. At a high level, Aqueduct pr
 [Modeling Data] [Serialization and Deserialization] [Inside the Machinery] [Executing Queries]
 [/av_textblock]
 
-[/av_three_fourth][/av_section][av_layout_row border='' min_height='0' color='main_color' mobile='av-flex-cells' id='']
+[/av_three_fourth]
+[/av_section]
 
-[av_cell_one_fourth vertical_align='top' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Executing-Queries-Aqueduct-1030x589.jpg' attachment='208' attachment_size='large' background_attachment='scroll' background_position='center center' background_repeat='no-repeat' mobile_display='']
+[av_layout_row border='' min_height='400' color='main_color' mobile='av-flex-cells' id='']
+
+[av_cell_one_fourth vertical_align='middle' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Executing-Queries-Aqueduct-1030x589.jpg' attachment='208' attachment_size='large' background_attachment='scroll' background_position='center center' background_repeat='no-repeat' mobile_display='']
 
 [/av_cell_one_fourth][av_cell_one_fourth vertical_align='top' padding='0px' padding_sync='true' background_color='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Inside-Datatbase-Aqueduct.jpg' attachment='205' attachment_size='full' background_attachment='scroll' background_position='center center' background_repeat='no-repeat' mobile_display='']
 
@@ -53,6 +55,7 @@ Aqueduct is capable of integrating with a database. At a high level, Aqueduct pr
 [/av_cell_one_fourth][av_cell_one_fourth vertical_align='top' padding='30px' background_color='' src='' background_attachment='scroll' background_position='top left' background_repeat='no-repeat' mobile_display='']
 
 [/av_cell_one_fourth][/av_layout_row][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h2' padding='10' heading='Get Aqueduct News ' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -78,7 +81,6 @@ Aqueduct is capable of integrating with a database. At a high level, Aqueduct pr
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_half][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[/av_one_fourth]
-[/av_section]
+[/av_one_fourth][/av_section]

@@ -338,7 +338,7 @@ Note that the type argument is <code class="highlighter-rouge">Question</code> -
     return new Response.notFound();
   }
   return new Response.ok(question);
-}</code></pre>
+}&lt;\code&gt;&lt;\pre&gt;
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -353,7 +353,7 @@ That’s fetch an insert. Delete works the same way - you specify a predicate, o
 You can specify that a <code class="highlighter-rouge">HTTPController</code> handler method extract HTTP query parameters for you and use them in the handler method. We’ll allow the <code class="highlighter-rouge">getAllQuestions</code> method to take a query parameter named <code class="highlighter-rouge">contains</code>. If this query parameter is passed, we’ll filter the questions on whether or not that question contains the value for <code class="highlighter-rouge">contains</code>. In <code class="highlighter-rouge">question_controller.dart</code>, update this method:
 [/av_textblock]
 
-[av_textblock size='' font_color='' color='']
+[av_textblock size='' font_color='' color='']</code></pre>
 <pre><code class="language-dart">@httpGet getAllQuestions({String contains: null}) async {
     var questionQuery = new QuestionQuery();
     if (contains != null) {

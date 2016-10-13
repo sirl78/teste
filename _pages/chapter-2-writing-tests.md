@@ -258,9 +258,29 @@ Run the tests against, and they should all pass.
 
 [av_heading tag='h2' padding='10' heading='What Comes Next?' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
-[av_button label='Chapter 3: Interacting with a Database' link='page,40' link_target='' size='x-large' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='theme-color' custom_bg='#444444' custom_font='#ffffff']
+[/av_three_fourth][av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[/av_three_fourth][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+[av_hr class='invisible' height='-30' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+
+[av_codeblock wrapper_element='' wrapper_element_attributes='']
+<!--HubSpot Call-to-Action Code -->
+<span id="hs-cta-wrapper-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-wrapper">
+<span id="hs-cta-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-node hs-cta-e9a8d607-af72-4aa1-8263-b8919aeb2eeb">
+<!-- [if lte IE 8]>
+<div id="hs-cta-ie-element"></div>
+<![endif]-->
+<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e9a8d607-af72-4aa1-8263-b8919aeb2eeb"><img id="hs-cta-img-e9a8d607-af72-4aa1-8263-b8919aeb2eeb" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e9a8d607-af72-4aa1-8263-b8919aeb2eeb.png" alt="CHAPTER 3: INTERACTING WITH A DATABASE" /></a>
+</span>
+<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+<script type="text/javascript">
+        hbspt.cta.load(706489, 'e9a8d607-af72-4aa1-8263-b8919aeb2eeb', {});
+    </script>
+</span>
+<!-- end HubSpot Call-to-Action Code -->
+[/av_codeblock]
+
+[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h2' padding='10' heading='Get Aqueduct News ' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -286,7 +306,6 @@ Run the tests against, and they should all pass.
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_half][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[/av_one_fourth]
-[/av_section]
+[/av_one_fourth][/av_section]

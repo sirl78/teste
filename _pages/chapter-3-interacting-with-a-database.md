@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-3-interacting-with-a-database/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - hidden_title_bar
+  - 'a:1:{i:0;s:16:"hidden_title_bar";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading heading='Interacting with a Database' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_above' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
@@ -47,7 +47,7 @@ A model is made up of two classes, its instance type and its persistent type. In
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">part of quiz;
+<pre class="prettyprint lang-dart">part of quiz;
 
 class _Question {
   @primaryKey
@@ -64,7 +64,7 @@ A persistent type is a simple Dart class. Each property maps to a column in a da
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@Attributes(primaryKey: true, databaseType: PropertyType.bigInteger, autoincrement: true)</pre>
+<pre class="prettyprint lang-dart">@Attributes(primaryKey: true, databaseType: PropertyType.bigInteger, autoincrement: true)</pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -74,7 +74,7 @@ Once a persistent type has been defined, you must define an instance type. At th
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">part of quiz;
+<pre class="prettyprint lang-dart">part of quiz;
 
 class Question extends Model&lt;_Question&gt; implements _Question {}
 
@@ -97,7 +97,7 @@ In order for an application to work with a database, it needs a <code class="hig
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuizPipeline extends ApplicationPipeline {
+<pre class="prettyprint lang-dart">class QuizPipeline extends ApplicationPipeline {
   QuizPipeline(Map options) : super(options) {
     var dataModel = new DataModel([Question]);
     var persistentStore = new PostgreSQLPersistentStore.fromConnectionInfo("dart", "dart", "localhost", 5432, "dart_test");
@@ -126,7 +126,7 @@ Now that we have a context - which can establish a connection to a database, tal
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuestionController extends HttpController {
+<pre class="prettyprint lang-dart">class QuestionController extends HttpController {
   @httpGet getAllQuestions() async {
     var questionQuery = new Query&lt;Question&gt;();
     var questions = await questionQuery.fetch();
@@ -153,7 +153,7 @@ Once it starts running, its icon (an elephant) will appear in your menu bar. Sel
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-sql" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">create database dart_test;
+<pre class="prettyprint lang-sql">create database dart_test;
 create user dart with createdb;
 alter user dart with password 'dart';
 grant all on database dart_test to dart;</pre>
@@ -166,7 +166,7 @@ You’ll notice in your pipeline, the configuration parameters for the <code cla
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">setUpAll(() async {
+<pre class="prettyprint lang-dart">setUpAll(() async {
   await app.start(runOnMainIsolate: true);
 
   var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
@@ -186,7 +186,7 @@ Because the <code class="highlighter-rouge">PostgreSQLPersistentStore</code>’s
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">tearDownAll(() async {
+<pre class="prettyprint lang-dart">tearDownAll(() async {
   await ModelContext.defaultContext.persistentStore.close();
   await app.stop();
 });</pre>
@@ -197,7 +197,7 @@ Now, if you run your tests, two of them will fail and one of them really should 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions returns list of questions", () async {
+<pre class="prettyprint lang-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement(endsWith("?"))));
   expect(response.decodedBody, hasLength(greaterThan(0)));
@@ -211,7 +211,7 @@ Ok, good, back to all tests failing - as they should, because there are no <code
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">setUpAll(() async {
+<pre class="prettyprint lang-dart">setUpAll(() async {
   await app.start(runOnMainIsolate: true);
   var generator = new SchemaGenerator(ModelContext.defaultContext.dataModel);
   var json = generator.serialized;
@@ -241,7 +241,7 @@ In our seeded test database, there will be two questions. If you re-run the test
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">Expected:
+<pre class="prettyprint lang-dart">Expected:
   Status Code: 200
   Body: every element(a string ending with '?')
   Actual: TestResponse:&lt; Status Code: 200 Headers: transfer-encoding: chunked content-encoding: gzip x-frame-options: SAMEORIGIN content-type: application/json; charset=utf-8 x-xss-protection: 1; mode=block x-content-type-options: nosniff server: aqueduct/1 Body: [{"index":1,"description":"How much wood can a woodchuck chuck?"},{"index":2,"description":"What's the tallest mountain in the world?"}]&gt;</pre>
@@ -252,7 +252,7 @@ When a <code class="highlighter-rouge">hasResponse</code> matcher fails, it prin
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions returns list of questions", () async {
+<pre class="prettyprint lang-dart">test("/questions returns list of questions", () async {
   var response = await client.request("/questions").get();
   expect(response, hasResponse(200, everyElement({
       "index" : greaterThan(0),
@@ -269,7 +269,7 @@ Go ahead and update the second test for a single question to match this same map
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions/index returns a single question", () async {
+<pre class="prettyprint lang-dart">test("/questions/index returns a single question", () async {
   var response = await client.request("/questions/0").get();
   expect(response, hasResponse(200, {
       "index" : greaterThanOrEqualTo(0),
@@ -283,7 +283,7 @@ Next, let’s update the <code class="highlighter-rouge">getQuestionAtIndex</cod
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@httpGet getQuestionAtIndex(int index) async {
+<pre class="prettyprint lang-dart">@httpGet getQuestionAtIndex(int index) async {
   var questionQuery = new Query&lt;Question&gt;()
     ..predicate = new Predicate("index = @idx", {"idx" : index + 1});
   var question = await questionQuery.fetchOne();
@@ -302,7 +302,7 @@ So, this is nice, but the crappy thing about <code class="highlighter-rouge">Pre
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@httpGet getQuestionAtIndex(int index) async {
+<pre class="prettyprint lang-dart">@httpGet getQuestionAtIndex(int index) async {
   var questionQuery = new ModelQuery&lt;Question&gt;()
     ..["index"] = whereEqualTo(index + 1);    
   var question = await questionQuery.fetchOne();
@@ -321,7 +321,7 @@ We can still go one step further, and remove all the strings and get the analyze
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuestionQuery extends ModelQuery&lt;Question&gt; implements _Question {}</pre>
+<pre class="prettyprint lang-dart">class QuestionQuery extends ModelQuery&lt;Question&gt; implements _Question {}</pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -329,7 +329,7 @@ Note that the type argument is <code class="highlighter-rouge">Question</code> -
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@httpGet getQuestionAtIndex(int index) async {
+<pre class="prettyprint lang-dart">@httpGet getQuestionAtIndex(int index) async {
   var questionQuery = new QuestionQuery()
     ..index = whereEqualTo(index + 1);    
   var question = await questionQuery.fetchOne();
@@ -354,7 +354,7 @@ You can specify that a <code class="highlighter-rouge">HTTPController</code> han
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">@httpGet getAllQuestions({String contains: null}) async {
+<pre class="prettyprint lang-dart">@httpGet getAllQuestions({String contains: null}) async {
     var questionQuery = new QuestionQuery();
     if (contains != null) {
       questionQuery.description = whereContains(contains);
@@ -369,7 +369,7 @@ Then, add a new test:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("/questions returns list of questions filtered by contains", () async {
+<pre class="prettyprint lang-dart">test("/questions returns list of questions filtered by contains", () async {
   var response = await client.request("/questions?contains=mountain").get();
   expect(response, hasResponse(200, [{
       "index" : greaterThanOrEqualTo(0),
@@ -402,16 +402,11 @@ This will pass, too - along with the rest of them! Don’t worry, you don’t ha
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-e53340ce-ecb6-48b0-a04d-f994905ba369" class="hs-cta-wrapper">
 <span id="hs-cta-e53340ce-ecb6-48b0-a04d-f994905ba369" class="hs-cta-node hs-cta-e53340ce-ecb6-48b0-a04d-f994905ba369">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e53340ce-ecb6-48b0-a04d-f994905ba369"><img id="hs-cta-img-e53340ce-ecb6-48b0-a04d-f994905ba369" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e53340ce-ecb6-48b0-a04d-f994905ba369.png" alt="CHAPTER 4: MODEL RELATIONSHIPS AND JOINS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'e53340ce-ecb6-48b0-a04d-f994905ba369', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, 'e53340ce-ecb6-48b0-a04d-f994905ba369', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
@@ -428,16 +423,11 @@ This will pass, too - along with the rest of them! Don’t worry, you don’t ha
 <!--HubSpot Call-to-Action Code -->
 <span id="hs-cta-wrapper-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-wrapper">
 <span id="hs-cta-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-node hs-cta-38cddba6-7fda-475c-9b91-421388cbf122">
-<!-- [if lte IE 8]>
+<!-- [if lte IE 8]&gt;--></span></span>
 <div id="hs-cta-ie-element"></div>
-<![endif]-->
 <a href="http://cta-redirect.hubspot.com/cta/redirect/706489/38cddba6-7fda-475c-9b91-421388cbf122"><img id="hs-cta-img-38cddba6-7fda-475c-9b91-421388cbf122" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/38cddba6-7fda-475c-9b91-421388cbf122.png" alt="GET AQUEDUCT NEWS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
-    </script>
-</span>
+
+hbspt.cta.load(706489, '38cddba6-7fda-475c-9b91-421388cbf122', {});
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 

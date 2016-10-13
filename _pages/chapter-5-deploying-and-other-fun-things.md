@@ -9,13 +9,13 @@ permalink: >
   https://aqueduct.io/tutorials/chapter-5-deploying-and-other-fun-things/
 published: true
 sidebar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 footer:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_title_bar:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 header_transparency:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading heading='Deploying and Other Fun Things' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_above' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
@@ -26,6 +26,7 @@ Chapter 5
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_sidebar widget_area='Tutorial 5']
@@ -45,7 +46,7 @@ We’re not going to advocate a specific tool or process for deployment, but we 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:quiz/quiz.dart';
+<pre><code class="language-dart">import 'package:quiz/quiz.dart';
 import 'dart:io';
 
 main() {
@@ -59,7 +60,7 @@ main() {
 
   var schemaFile = new File("schema.sql");
   schemaFile.writeAsStringSync(pGenerator.commandList);
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -67,7 +68,7 @@ Running that script from the top-level directory of <code class="highlighter-rou
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-text" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">dart bin/generate_schema.dart</pre>
+<pre><code class="language-dart">dart bin/generate_schema.dart</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -75,7 +76,7 @@ will create a file named <code class="highlighter-rouge">schema.sql</code>. You 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-text" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">psql -h  -p  -U  -d  -f schema.sql</pre>
+<pre><code class="language-dart">psql -h  -p  -U  -d  -f schema.sql</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -83,13 +84,13 @@ will create a file named <code class="highlighter-rouge">schema.sql</code>. You 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-yaml" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">name: quiz
+<pre><code class="language-dart">name: quiz
 description: A quiz web server
 version: 0.0.1
 author: Me
 
 environment:
-  sdk: '&gt;=1.0.0 &lt;2.0.0' dependencies: aqueduct: any safe_config: any dev_dependencies: test: '&gt;=0.12.0 &lt;0.13.0'</pre>
+  sdk: '&gt;=1.0.0 &lt;2.0.0' dependencies: aqueduct: any safe_config: any dev_dependencies: test: '&gt;=0.12.0 &lt;0.13.0'</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -97,11 +98,11 @@ Then run <code class="highlighter-rouge">pub get</code>. The <code class="highli
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuizConfiguration extends ConfigurationItem {
+<pre><code class="language-dart">class QuizConfiguration extends ConfigurationItem {
   QuizConfiguration(String fileName) : super.fromFile(fileName);
 
   DatabaseConnectionConfiguration database;
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -109,12 +110,12 @@ Next, we will create a ‘configuration source file’. This file gets checked i
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-yaml" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">database:
+<pre><code class="language-dart">database:
  username: dart
  password: dart
  host: localhost
  port: 5432
- databaseName: dart_test</pre>
+ databaseName: dart_test</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -124,7 +125,7 @@ Let’s take care of the pipeline stuff first. Add a new static property in <cod
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">class QuizPipeline extends ApplicationPipeline {
+<pre><code class="language-dart">class QuizPipeline extends ApplicationPipeline {
 
   static String ConfigurationKey = "QuizPipeline.Configuration";
 
@@ -138,7 +139,7 @@ Let’s take care of the pipeline stuff first. Add a new static property in <cod
     context = new ModelContext(dataModel, persistentStore);
   }
 
-  ...</pre>
+  ...</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -146,7 +147,7 @@ Next, we’ll need to read in the configuration file as an instance of <code cla
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">void main() {
+<pre><code class="language-dart">void main() {
   var app = new Application();
   var client = new TestClient(app.configuration.port);
 
@@ -156,7 +157,7 @@ Next, we’ll need to read in the configuration file as an instance of <code cla
   };
 
   setUpAll(() async {
-    ...</pre>
+    ...</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -166,7 +167,7 @@ Now, you’ll need to update the the <code class="highlighter-rouge">bin/quiz.da
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">import 'package:quiz/quiz.dart';
+<pre><code class="language-dart">import 'package:quiz/quiz.dart';
 
 void main() {
   var config = new QuizConfiguration("config.yaml");
@@ -176,7 +177,7 @@ void main() {
     };
 
   app.start();
-}</pre>
+}</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -184,10 +185,10 @@ To get your code onto a server, we recommend putting it in a GitHub repository, 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-sql" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">insert into _question (description) values ('How much wood would a woodchuck chuck?');
+<pre><code class="language-dart">into _question (description) values ('How much wood would a woodchuck chuck?');
 insert into _question (description) values ('What is the tallest mountain?');
 insert into _answer (description, question_index) values ('Depends on if it can.', 1);
-insert into _answer (description, question_index) values ('Mount Everest.', 2);</pre>
+insert into _answer (description, question_index) values ('Mount Everest.', 2);</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -197,7 +198,7 @@ Finally, to run your application, you simply run the following command from the 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-text" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">nohup dart bin/start.dart &gt; /dev/null 2&gt;&amp;1 &amp;</pre>
+<pre><code class="language-dart">nohup dart bin/start.dart &gt; /dev/null 2&gt;&amp;1 &amp;</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -205,7 +206,7 @@ If you want to take down the server, you can run the kill command on the process
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-text" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">pkill dart</pre>
+<pre><code class="language-dart">pkill dart</code></pre>
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -227,7 +228,7 @@ Again, <code class="highlighter-rouge">wildfire</code> is your best bet here as 
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-yaml" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">language: dart
+<pre><code class="language-dart">language: dart
 sudo: required
 addons:
   postgresql: "9.4"
@@ -239,7 +240,7 @@ before_script:
   - psql -c "alter user dart with password 'dart';" -U postgres
   - psql -c 'grant all on database dart_test to dart;' -U postgres
   - pub get
-script: pub run test -j 1 -r expanded</pre>
+script: pub run test -j 1 -r expanded</code></pre>
 [/av_textblock]
 
 [av_heading tag='h2' padding='10' heading='<span id="logging">5.3 Logging</span>' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -248,10 +249,7 @@ script: pub run test -j 1 -r expanded</pre>
 <code class="highlighter-rouge">aqueduct</code> logs requests, the amount of information depending on the result of the request. These are logged at the ‘info’ level using the <code class="highlighter-rouge">logger</code> package. At more granular levels, <code class="highlighter-rouge">aqueduct</code> also logs database queries. <code class="highlighter-rouge">wildfire</code> templates incorporate the <code class="highlighter-rouge">scribe</code> package to manage logging to files and the console. See it for more examples.
 [/av_textblock]
 
-[/av_three_fourth]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+[/av_three_fourth][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h2' padding='10' heading='Get Aqueduct News ' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]

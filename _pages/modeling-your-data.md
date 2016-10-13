@@ -9,27 +9,27 @@ permalink: >
   https://aqueduct.io/documentation/modeling-your-data/
 published: true
 sidebar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 footer:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_title_bar:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 header_transparency:
-  - 'a:1:{i:0;s:0:"";}'
+  - ""
 ---
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
-
 [av_heading heading='Modeling Your Data' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff']
 Chapter 5
 [/av_heading]
 
 [av_hr class='invisible' height='20' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[/av_section]
 
-[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 
 [av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
-[av_sidebar widget_area='Tutorial 5']
+[av_sidebar widget_area='Doc - Modeling Your Data']
 
 [/av_one_fourth][av_three_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
@@ -70,7 +70,7 @@ Thus, a persistent type is never instantiated, it simply provides the mapping in
 In order to use an entity in your application, it must be compiled into a <code>DataModel</code> [see inside<em>the</em>db.md]. A <code>DataModel</code> will create instances of <code>ModelEntity</code> that preprocess and validate the information described in your persistent and instance types at application startup.
 [/av_textblock]
 
-[av_heading heading='<span id="persistenttypes">1 More on Persistent Types</span>' tag='h2' style='blockquote modern-quote' size='30' subheading_active='' subheading_size='15' padding='10' color='' custom_font='#ffffff'][/av_heading]
+[av_heading tag='h2' padding='10' heading='<span id="persistenttypes">1 More on Persistent Types</span>' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
 Persistent types define the mapping between your code and a database table (and are often used to generate those tables in a database). As each property in a persistent type represents a database column, the type of the property must be storable in a database. The following types are available as primitive properties on a persistent type:
@@ -121,7 +121,7 @@ static String tableName() { return "UserTable"; } } ```
 <span class="Apple-style-span">Note that the specific database driver determines whether or not the table name is case-sensitive or not. The included database driver for PostgreSQL automatically lowercases table names and is case-insensitive.</span>
 [/av_textblock]
 
-[av_heading heading='<span id="instancetypes">2 Instance Types</span>' tag='h2' style='blockquote modern-quote' size='30' subheading_active='' subheading_size='15' padding='10' color='' custom_font='#ffffff'][/av_heading]
+[av_heading tag='h2' padding='10' heading='<span id="instancetypes">2 Instance Types</span>' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
 <span class="Apple-style-span"> In using model objects in your application code, you will always use instances of an entity's instance type. Model objects can be transferred to and from a database to insert or fetch data. Model objects can also read their properties from a <code>Map</code>, oftentimes from JSON data in an HTTP request body. Model objects also know how to serialize themselves back into a <code>Map</code>, so they can be used as an HTTP response body. Additionally, model objects are used to help build queries in a safe way. The following code snippet is a pretty common usage of a model object: </span>
@@ -140,7 +140,7 @@ When getting model objects from a database, each instance will represent one row
 
 id|name --|---- 1|Bob 2|Fred
 
-If this entire table were fetched, you'd get a <code>List&lt;User&gt;</code> as though you had written the following code:
+If this entire table were fetched, you'd get a <code>List</code> as though you had written the following code:
 [/av_textblock]
 
 [av_textblock size='' font_color='' color='']
@@ -164,7 +164,7 @@ Note that, by default, transient properties are not serialized or deserialized, 
 It is important to understand that a <code>Model</code> is a effectively a wrapper around a<code>Map&lt;String, dynamic&gt;</code>. This <code>Map</code> is the <em>backing</em> of the <code>Model</code> object. A <code>Model</code> object's values are stored in this <code>Map</code> - when you access a property of a model object, the name of the property is transformed into a <code>String</code> key in the backing map. This is why the instance type <em>implements</em> its persistent type - the actual storage for the properties are in this backing map, inherited from<code>Model</code>. The <code>Model</code> class implements <code>noSuchMethod</code> to set and get data from its backing map when an accessor is invoked on a <code>Model</code> subclass.
 [/av_textblock]
 
-[av_heading heading='<span id="modelingmodel">3 Modeling Model Object Relationships</span>' tag='h2' style='blockquote modern-quote' size='30' subheading_active='' subheading_size='15' padding='10' color='' custom_font='#ffffff'][/av_heading]
+[av_heading tag='h2' padding='10' heading='<span id="modelingmodel">3 Modeling Model Object Relationships</span>' color='' style='blockquote modern-quote' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
 In addition to attributes, model objects may also have properties that are other model objects or collections of other model objects. These types of properties are called <em>relationships</em>. For example, in a social network application, a user may have many posts that they have created. A user, then, should have a property that is a list of posts. This is called a 'hasMany' relationship, because a user can have many posts.

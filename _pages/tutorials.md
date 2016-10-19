@@ -25,12 +25,11 @@ Chapter 2
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_textblock size='' font_color='' color='']
 If this is your first look at Aqueduct, these tutorials offer a manual, step-by-step guide to implementing your first Aqueduct web server. These tutorials should take a total of 1-2 hours to go through and will familiarize you with the basics of the framework.
-
-Once familiar with Aqueduct, it’s best to create new projects using <a href="https://github.com/stablekernel/wildfire" target="_blank">wildfire</a>. This template generator will help with the structuring a new project, boilerplate and important scripts for generating documentation, database schemas, running servers, automated testing and configuring instances.
 [/av_textblock]
 
 [/av_one_full][av_one_third first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='av-hide-on-mobile']
@@ -90,37 +89,15 @@ Once familiar with Aqueduct, it’s best to create new projects using <a href="h
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_third]
-[/av_section]
+[/av_one_third][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
-[av_textblock size='' font_color='custom' color='#ffffff']
-The first chapter is a quick read and covers installing Dart and Aqueduct. If you don't know Dart, don't worry - it's easy to learn, especially if you come from Java, Objective-C, Swift and other C-like languages. Take the <a href="https://www.dartlang.org/docs/dart-up-and-running/ch02.html" target="_blank">language tour</a> to get caught up to speed. You'll feel comfortable cross-referencing the language tour while going through the aqueduct tutorials.
-[/av_textblock]
+[av_textblock size='' font_color='custom' color='#ffffff'][/av_textblock]
 
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-b1063277-d61b-425a-8dcd-d8c70caac2c4" class="hs-cta-wrapper">
-<span id="hs-cta-b1063277-d61b-425a-8dcd-d8c70caac2c4" class="hs-cta-node hs-cta-b1063277-d61b-425a-8dcd-d8c70caac2c4">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/b1063277-d61b-425a-8dcd-d8c70caac2c4" target="_blank"><img id="hs-cta-img-b1063277-d61b-425a-8dcd-d8c70caac2c4" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/b1063277-d61b-425a-8dcd-d8c70caac2c4.png" alt="TAKE THE DART TOUR" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'b1063277-d61b-425a-8dcd-d8c70caac2c4', {});
-    </script>
-</span>
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
+[av_codeblock wrapper_element='' wrapper_element_attributes=''][/av_codeblock]
 
-[/av_one_full]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Aqueduct for Dart Tutorials' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='subheading_below' subheading_size='22' custom_class='']

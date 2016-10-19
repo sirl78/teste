@@ -21,16 +21,17 @@ header_transparency:
 [/av_slideshow_full]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_heading heading='Built for Productivity' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='15' padding='10' color='' custom_font=''][/av_heading]
+[av_heading tag='h1' padding='10' heading='Built for Productivity' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [/av_one_full][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_textblock size='' font_color='' color='']
-Aqueduct is an open-source, server-side web framework written in <a href="https://www.dartlang.org/" target="_blank">Google’s Dart language</a>. Aqueduct promises faster development, experimentation and testing - without sacrificing power. This allows for faster feedback cycles and greater stability over time.
+Aqueduct is an open-source, server-side web framework written in <a href="https://www.dartlang.org/">Google’s Dart language</a>. Aqueduct promises faster development, experimentation and testing - without sacrificing power. This allows for faster feedback cycles and greater stability over time.
 [/av_textblock]
 
 [av_codeblock wrapper_element='' wrapper_element_attributes='']
@@ -50,10 +51,8 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_full]
-[/av_section]
+[/av_one_full][/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 
-[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Features' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -62,7 +61,7 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 
 [/av_one_full][av_one_third first min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
-[av_heading tag='h2' padding='10' heading='Full user guide and <a href="https://www.dartdocs.org/documentation/aqueduct/0.9.0/index.html" target="_blank">API documentation</a>' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+[av_heading heading='Full user guide and <a href="https://www.dartdocs.org/documentation/aqueduct/0.9.0/index.html">API documentation</a>' tag='h2' style='blockquote modern-quote' size='20' subheading_active='' subheading_size='15' padding='10' color='custom-color-heading' custom_font='#ffffff'][/av_heading]
 
 [av_hr class='invisible' height='60' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
@@ -240,9 +239,8 @@ return new Response.ok(createdThings);</code></pre>
 [/av_textblock]
 
 [/av_one_third][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-[/av_section]
 
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Why Aqueduct for Dart' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -268,7 +266,6 @@ return new Response.ok(createdThings);</code></pre>
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/noise-for-dark-background.png' overlay_custom_pattern='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/bg.png']
-
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Aqueduct in Action' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -281,7 +278,10 @@ return new Response.ok(createdThings);</code></pre>
 
 [av_image src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Projects_Photo_2.jpg' attachment='230' attachment_size='full' align='center' styling='' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='fade-in'][/av_image]
 
-[/av_one_half][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[/av_one_half]
+[/av_section]
+
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Getting Started' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]

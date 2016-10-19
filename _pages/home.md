@@ -71,7 +71,15 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">router
   .route("/users/[:id]")
   .pipe(new Authorizer(authenticationServer))
-  .generate(() =&gt; new UserController());</pre>
+  .generate(() =&gt; new UserController());
+
+
+
+
+
+
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_one_half min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
@@ -82,7 +90,15 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">router
   .route("/auth/token")
   .pipe(new Authorizer(stragegy: AuthStrategy.client))
-  .generate(() =&gt; new AuthController(authServer));</pre>
+  .generate(() =&gt; new AuthController(authServer));
+
+
+
+
+
+
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
@@ -93,7 +109,17 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 
 [av_textblock size='' font_color='' color='']
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">pub global activate aqueduct
-aqueduct create -n my_app</pre>
+aqueduct create -n my_app
+
+
+
+
+
+
+
+
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
@@ -106,7 +132,13 @@ var query = new Query&lt;br /&gt;
 &lt;Article&gt;()
 	..matchOn.category = whereEqualTo("sports")
 	..matchOn.postDate = whereGreaterThan(time);
-var articles = await query.fetch();</pre>
+var articles = await query.fetch();
+
+
+
+
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
@@ -120,7 +152,14 @@ var articles = await query.fetch();</pre>
 	..matchOn.name = whereContains("Sally")
 	..matchOn.books.includeInResultSet = true
 	..matchOn.books.category = whereEqualTo("Fiction");
-var sallyAndHerBooks = await query.fetch();</pre>
+var sallyAndHerBooks = await query.fetch();
+
+
+
+
+
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_one_half min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
@@ -128,7 +167,18 @@ var sallyAndHerBooks = await query.fetch();</pre>
 [av_heading tag='h2' padding='10' heading='Painless multi-threading support' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='12' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">await application.start(numberOfIsolates: 5);</pre>
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">await application.start(numberOfIsolates: 5);
+
+
+
+
+
+
+
+
+
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
@@ -147,7 +197,9 @@ var sallyAndHerBooks = await query.fetch();</pre>
       "description" : isString
     })
   })
-});</pre>
+});
+
+</pre>
 [/av_textblock]
 
 [/av_one_half][av_one_half min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
@@ -215,7 +267,6 @@ var sallyAndHerBooks = await query.fetch();</pre>
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Getting Started' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -287,8 +338,10 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_third][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+[/av_one_third]
+[/av_section]
 
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Get Aqueduct News' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -316,4 +369,5 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 
 [/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[/av_one_fourth][/av_section]
+[/av_one_fourth]
+[/av_section]

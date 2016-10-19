@@ -109,8 +109,6 @@ router
 [av_textblock size='' font_color='' color='']
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
 
-
-
 pub global activate aqueduct
 aqueduct create -n my_app
 
@@ -128,6 +126,7 @@ aqueduct create -n my_app
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
 var time = new DateTime(2016, 10, 10);
 var query = new Query&lt;br /&gt;
+&lt;br /&gt;
 &lt;br /&gt;
 &lt;Article&gt;()
 	..matchOn.category = whereEqualTo("sports")

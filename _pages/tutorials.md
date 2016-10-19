@@ -25,76 +25,26 @@ Chapter 2
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_textblock size='' font_color='custom' color='#ffffff']
 If this is your first look at Aqueduct, these tutorials offer a manual, step-by-step guide to implementing your first Aqueduct web server. These tutorials should take a total of 1-2 hours to go through and will familiarize you with the basics of the framework.
-
-Check out some additional resources before you get started.
-
 [/av_textblock]
 
 [/av_one_full][av_one_third first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='av-hide-on-mobile']
 
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-9297eebf-035d-426a-83be-bca675061a77" class="hs-cta-wrapper">
-<span id="hs-cta-9297eebf-035d-426a-83be-bca675061a77" class="hs-cta-node hs-cta-9297eebf-035d-426a-83be-bca675061a77">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/9297eebf-035d-426a-83be-bca675061a77"><img id="hs-cta-img-9297eebf-035d-426a-83be-bca675061a77" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/9297eebf-035d-426a-83be-bca675061a77.png" alt="ABOUT DART" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '9297eebf-035d-426a-83be-bca675061a77', {});
-    </script>
-</span>
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
+[av_codeblock wrapper_element='' wrapper_element_attributes=''][/av_codeblock]
 
 [/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='av-hide-on-mobile']
 
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-wrapper">
-<span id="hs-cta-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-node hs-cta-ea5031ae-f5e8-4ede-976f-9bec6b8725e1">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/ea5031ae-f5e8-4ede-976f-9bec6b8725e1" target="_blank"><img id="hs-cta-img-ea5031ae-f5e8-4ede-976f-9bec6b8725e1" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/ea5031ae-f5e8-4ede-976f-9bec6b8725e1.png" alt="GO TO GITHUB" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'ea5031ae-f5e8-4ede-976f-9bec6b8725e1', {});
-    </script>
-</span>
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
+[av_codeblock wrapper_element='' wrapper_element_attributes=''][/av_codeblock]
 
 [/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='av-hide-on-mobile']
 
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-wrapper">
-<span id="hs-cta-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-node hs-cta-e5d68c77-42dc-4aff-b2da-6e3cb875e312">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/e5d68c77-42dc-4aff-b2da-6e3cb875e312" target="_blank"><img id="hs-cta-img-e5d68c77-42dc-4aff-b2da-6e3cb875e312" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/e5d68c77-42dc-4aff-b2da-6e3cb875e312.png" alt="API DOCUMENTATION" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, 'e5d68c77-42dc-4aff-b2da-6e3cb875e312', {});
-    </script>
-</span>
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
+[av_codeblock wrapper_element='' wrapper_element_attributes=''][/av_codeblock]
 
-[/av_one_third]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#ffffff' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
+[/av_one_third][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#ffffff' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_textblock size='' font_color='custom' color='#ffffff'][/av_textblock]

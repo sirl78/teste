@@ -107,10 +107,13 @@ router
 [av_heading tag='h2' padding='10' heading='Project template generation' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
-
-pub global activate aqueduct
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">pub global activate aqueduct
 aqueduct create -n my_app
+
+
+
+
+
 
 
 
@@ -123,8 +126,7 @@ aqueduct create -n my_app
 [av_heading tag='h2' padding='10' heading='ORM query-building using Hamcrest matcher style' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='12' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
-var time = new DateTime(2016, 10, 10);
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var time = new DateTime(2016, 10, 10);
 var query = new Query&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
@@ -132,6 +134,7 @@ var query = new Query&lt;br /&gt;
 	..matchOn.category = whereEqualTo("sports")
 	..matchOn.postDate = whereGreaterThan(time);
 var articles = await query.fetch();
+
 
 
 </pre>
@@ -144,13 +147,14 @@ var articles = await query.fetch();
 [av_heading tag='h2' padding='10' heading='ORM Multi-level joins in simple syntax' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='12' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
-
-var query = new Query&lt;Author&gt;()
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var query = new Query&lt;Author&gt;()
 	..matchOn.name = whereContains("Sally")
 	..matchOn.books.includeInResultSet = true
 	..matchOn.books.category = whereEqualTo("Fiction");
 var sallyAndHerBooks = await query.fetch();
+
+
+
 
 
 
@@ -162,11 +166,12 @@ var sallyAndHerBooks = await query.fetch();
 [av_heading tag='h2' padding='10' heading='Painless multi-threading support' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='12' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">await application.start(numberOfIsolates: 5);
 
 
 
-await application.start(numberOfIsolates: 5);
+
+
 
 
 
@@ -192,6 +197,7 @@ await application.start(numberOfIsolates: 5);
     })
   })
 });
+
 </pre>
 [/av_textblock]
 

@@ -100,11 +100,10 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 [av_heading tag='h2' padding='10' heading='Built-in OAuth 2.0 Authentication' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="features"><code class="language-dart">void addRoutes() {
-router.route("/auth/token")
-.next(authServer.authenticator(strategy: AuthenticationStrategy.Client))
-.next(() =&gt; new AuthController&lt;user, token=""&gt;());
-}</code></pre>
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">router
+  .route("/auth/token")
+  .pipe(new Authorizer(stragegy: AuthStrategy.client))
+  .generate(() =&gt; new AuthController(authServer));</pre>
 [/av_textblock]
 
 [/av_one_third][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
@@ -124,7 +123,8 @@ aqueduct create -n my_app</pre>
 
 [av_textblock size='' font_color='' color='']
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var time = new DateTime(2016, 10, 10);
-var query = new Query&lt;Article&gt;()
+var query = new Query&lt;br /&gt;
+&lt;Article&gt;()
 	..matchOn.category = whereEqualTo("sports")
 	..matchOn.postDate = whereGreaterThan(time);
 var articles = await query.fetch();</pre>
@@ -149,7 +149,7 @@ var sallyAndHerBooks = await query.fetch();</pre>
 [av_heading tag='h2' padding='10' heading='Painless multi-threading support' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='12' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="features"><code class="language-dart">await application.start(numberOfIsolates: 5);</code></pre>
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">await application.start(numberOfIsolates: 5);</pre>
 [/av_textblock]
 
 [/av_one_third][av_one_third min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
@@ -157,14 +157,16 @@ var sallyAndHerBooks = await query.fetch();</pre>
 [av_heading tag='h2' padding='10' heading='A powerful, yet simple testing framework' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='12' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="features"><code class="language-dart">var response = await client.request("/questions").get();
-expect(response, hasResponse(200, everyElement({
-"id" : greaterThanOrEqualTo(0),
-"description" : endsWith("?"),
-"answer" : partial({
-"description" : isString
-})
-})));</code></pre>
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">test("Get all questions", () async {
+  var response = await client.request("/questions").get();
+  expect(response, hasResponse(200, everyElement({
+    "id" : greaterThanOrEqualTo(0),
+    "description" : endsWith("?"),
+    "answer" : partial({
+      "description" : isString
+    })
+  })
+});</pre>
 [/av_textblock]
 
 [/av_one_third][av_one_third min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']

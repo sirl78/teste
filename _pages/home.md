@@ -87,13 +87,14 @@ router
 [av_heading tag='h2' padding='10' heading='Built-in OAuth 2.0 Authentication' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">
-
-
-router
+<pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">router
   .route("/auth/token")
   .pipe(new Authorizer(stragegy: AuthStrategy.client))
   .generate(() =&gt; new AuthController(authServer));
+
+
+
+
 
 
 
@@ -128,6 +129,7 @@ aqueduct create -n my_app
 [av_textblock size='' font_color='' color='']
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var time = new DateTime(2016, 10, 10);
 var query = new Query&lt;br /&gt;
+&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;Article&gt;()

@@ -297,7 +297,9 @@ return new Response.ok(createdThings);</code></pre>
 Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</a>. They take you on a step-by-step journey through the fundamentals of using Aqueduct to build web servers. You can also check out the Github repo and view the API documentation.
 [/av_textblock]
 
-[/av_one_full][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[/av_one_full][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+
+[av_one_third first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_codeblock wrapper_element='' wrapper_element_attributes='']
 <!--HubSpot Call-to-Action Code -->
@@ -314,9 +316,10 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
     </script>
 </span>
 <!-- end HubSpot Call-to-Action Code -->
+
 [/av_codeblock]
 
-[/av_one_fourth][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[/av_one_third][av_one_third min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_codeblock wrapper_element='' wrapper_element_attributes='']
 <!--HubSpot Call-to-Action Code -->
@@ -333,9 +336,10 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
     </script>
 </span>
 <!-- end HubSpot Call-to-Action Code -->
+
 [/av_codeblock]
 
-[/av_one_fourth][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[/av_one_third][av_one_third min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
 [av_codeblock wrapper_element='' wrapper_element_attributes='']
 <!--HubSpot Call-to-Action Code -->
@@ -352,29 +356,10 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
     </script>
 </span>
 <!-- end HubSpot Call-to-Action Code -->
+
 [/av_codeblock]
 
-[/av_one_fourth][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-wrapper">
-<span id="hs-cta-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-node hs-cta-457328f6-8788-4b69-b58c-2920d2da856d">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/457328f6-8788-4b69-b58c-2920d2da856d" target="_blank"><img id="hs-cta-img-457328f6-8788-4b69-b58c-2920d2da856d" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/457328f6-8788-4b69-b58c-2920d2da856d.png" alt="CHECK OUT WILDFIRE" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '457328f6-8788-4b69-b58c-2920d2da856d', {});
-    </script>
-</span>
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
-
-[/av_one_fourth][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
-
+[/av_one_third][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading heading='Get Aqueduct News' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='15' padding='10' color='custom-color-heading' custom_font='#ffffff'][/av_heading]
@@ -402,4 +387,5 @@ Start with our <a href="http://aqueduct.stablekernel.com/tutorials/">tutorials</
 
 [/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[/av_one_fourth][/av_section]
+[/av_one_fourth]
+[/av_section]

@@ -68,13 +68,13 @@ Aqueduct is an open-source, server-side web framework written in <a href="https:
 [av_heading tag='h2' padding='10' heading='HTTP Request Routing and Request Pipelines' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_textblock size='' font_color='' color='']
-<pre class="prettyprint lang-dart" data-start-line="5" data-visibility="visible" data-highlight="" data-caption="">
-
-
-router
+<pre class="prettyprint lang-dart" data-start-line="5" data-visibility="visible" data-highlight="" data-caption="">router
   .route("/users/[:id]")
   .pipe(new Authorizer(authenticationServer))
   .generate(() =&gt; new UserController());
+
+
+
 
 
 

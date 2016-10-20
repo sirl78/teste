@@ -263,7 +263,7 @@ var sallyAndHerBooks = await query.fetch();
 
 [/av_one_half][av_one_half min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_image src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Projects_Photo_2.jpg' attachment='230' attachment_size='full' align='center' styling='' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='fade-in'][/av_image]
+[av_image src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Projects_Photo_2.jpg' attachment='230' attachment_size='full' align='center' styling='' hover='' link='manually,https://stablekernel.com/simplifying-furniture-shopping-swipe/' target='_blank' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='fade-in'][/av_image]
 
 [/av_one_half][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']

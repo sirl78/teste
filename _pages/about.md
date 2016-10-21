@@ -31,7 +31,7 @@ Aqueduct seeks a middle ground between being explicit and convenience. aqueduct 
 
 Aqueduct includes tools to make the ecosystem around your web server more valuable with less effort - like automatic documentation generation.
 
-Still not sold? Read why we believe this framework is everything a Dart programmer is looking for. Read more.
+Still not sold? Read why we believe this framework is everything a Dart programmer is looking for. <a href="http://blog.stablekernel.com/why-dart-is-the-right-language-open-sourced-server-side-web-framework-aqueduct">Read more.</a>
 [/av_textblock]
 
 [/av_one_full][/av_section][av_section min_height='custom' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Projects-Rheem-photo-1.jpg' attachment='183' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']

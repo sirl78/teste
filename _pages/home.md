@@ -239,7 +239,6 @@ var sallyAndHerBooks = await query.fetch();
 [av_iconlist position='left' iconlist_styling='av-iconlist-small' custom_title_size='22' custom_content_size='' font_color='' custom_title='' custom_content='' color='custom' custom_bg='' custom_font='#72c4d6' custom_border='']
 [av_iconlist_item title='Rapid development' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
 [av_iconlist_item title='Easy testing and CI integration' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
-[av_iconlist_item title='Supported by Google' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
 [av_iconlist_item title='Easy improvement and maintenance' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
 [/av_iconlist]
 
@@ -250,7 +249,6 @@ var sallyAndHerBooks = await query.fetch();
 [/av_one_fifth][av_one_fifth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [/av_one_fifth][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/noise-for-dark-background.png' overlay_custom_pattern='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/bg.png']
-
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Aqueduct in Action' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
@@ -263,7 +261,10 @@ var sallyAndHerBooks = await query.fetch();
 
 [av_image src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Projects_Photo_2.jpg' attachment='230' attachment_size='full' align='center' styling='' hover='' link='manually,https://stablekernel.com/re-engineering-econet-cloud-2-0-rheem/' target='_blank' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='no-animation'][/av_image]
 
-[/av_one_half][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[/av_one_half]
+[/av_section]
+
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Getting Started' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]

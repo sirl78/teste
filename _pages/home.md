@@ -129,11 +129,11 @@ aqueduct create -n my_app
 
 [av_textblock size='' font_color='' color='']
 <pre class="prettyprint lang-dart" data-start-line="1" data-visibility="visible" data-highlight="" data-caption="">var time = new DateTime(2016, 10, 10);
-var query = new Query&lt;br /&gt;
-&lt;Article&gt;()
+var query = new Query&lt;Article&gt;()
 	..matchOn.category = whereEqualTo("sports")
 	..matchOn.postDate = whereGreaterThan(time);
 var articles = await query.fetch();
+
 
 
 

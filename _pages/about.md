@@ -37,8 +37,8 @@ Aqueduct includes tools to make the ecosystem around your web server more valuab
 
 [av_section min_height='custom' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/Econet-Rheem-Manufacturing-header-stablekernel.jpg' attachment='235' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.3' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 
-[av_heading heading='EcoNet™' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='custom-color-heading' custom_font='#ffffff' custom_class='portfoliocaption']
-Rheem Manufacturing
+[av_heading heading='<a href="http://stablekernel.staging.wpengine.com/portfolio-item/econet/">EcoNet™</a>' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='custom-color-heading' custom_font='#ffffff' custom_class='portfoliocaption']
+<a href="http://stablekernel.staging.wpengine.com/portfolio-item/econet/">Rheem Manufacturing</a>
 [/av_heading]
 
 [/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']

@@ -36,18 +36,23 @@ Aqueduct includes tools to make the ecosystem around your web server more valuab
 [/av_section]
 
 [av_section min_height='custom' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/Econet-Rheem-Manufacturing-header-stablekernel.jpg' attachment='235' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.3' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='' custom_class='']
-
 [av_heading heading='<a href="http://stablekernel.staging.wpengine.com/portfolio-item/econet/">EcoNet™</a>' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='custom-color-heading' custom_font='#ffffff' custom_class='portfoliocaption']
 <a href="http://stablekernel.staging.wpengine.com/portfolio-item/econet/">Rheem Manufacturing</a>
 [/av_heading]
+[/av_section]
 
-[/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Meet the Team behind Aqueduct' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='30' custom_class=''][/av_heading]
 
 [/av_one_full]
 [/av_section]
+
+[av_slideshow_full size='no scaling' stretch='' animation='slide' autoplay='false' interval='5' control_layout='av-control-hidden' src='' attachment='' attachment_size='' position='top left' repeat='no-repeat' attach='scroll' custom_class='']
+[av_slide_full slide_type='image' id='58' video='' mobile_image='' video_format='' video_ratio='' title='' custom_title_size='' custom_content_size='' caption_pos='caption_right caption_right_framed caption_framed' link_apply='' link='lightbox' link_target='' button_label='' button_color='light' link1='manually,http://' link_target1='' button_label2='' button_color2='light' link2='manually,http://' link_target2='' font_color='' custom_title='' custom_content='' overlay_opacity='0.1' overlay_color='' overlay_pattern='' overlay_custom_pattern=''][/av_slide_full]
+
+[/av_slideshow_full]
 
 [av_section min_height='75' min_height_px='600px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/meet-the-team2-about-aqueduct.jpg' attachment='58' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern=''][/av_section]
 

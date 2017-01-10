@@ -36,13 +36,9 @@ Still not sold? Read why we believe this framework is everything a Dart programm
 [/av_one_full]
 [/av_section]
 
-[av_codeblock wrapper_element='' wrapper_element_attributes='' custom_class='']
-
-[/av_codeblock]
-
 [av_section min_height='custom' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Econet-Rheem-Manufacturing-header-stablekernel.jpg' attachment='291' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.3' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 
-[av_heading heading='<a href="https://stablekernel.com/re-engineering-econet-cloud-2-0-rheem/" target="_blank">EcoNet™</a>' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='' custom_font='' custom_class='portfoliocaption']
+[av_heading heading='<a href="https://stablekernel.com/re-engineering-econet-cloud-2-0-rheem/" target="_blank">EcoNet™</a>' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='custom-color-heading' custom_font='#ffffff' custom_class='portfoliocaption']
 <a href="https://stablekernel.com/re-engineering-econet-cloud-2-0-rheem/" target="_blank">Rheem Manufacturing</a>
 [/av_heading]
 

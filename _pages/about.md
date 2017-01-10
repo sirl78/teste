@@ -50,8 +50,9 @@ Still not sold? Read why we believe this framework is everything a Dart programm
 [/av_one_full]
 [/av_section]
 
-[av_slideshow size='featured' animation='slide' autoplay='false' interval='5' control_layout='av-control-hidden' custom_class='']
-[av_slide id='58'][/av_slide]
+[av_slideshow size='no scaling' animation='slide' autoplay='false' interval='5' control_layout='av-control-hidden' custom_class='']
+[av_slide slide_type='image' id='58' video='http://' mobile_image='' video_ratio='16:9' title='' link_apply='' link='lightbox' link_target=''][/av_slide]
+
 [/av_slideshow]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']

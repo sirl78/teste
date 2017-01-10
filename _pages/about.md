@@ -5,8 +5,7 @@ author: Jorge Vieira
 post_date: 2016-08-09 10:23:27
 post_excerpt: ""
 layout: page
-permalink: >
-  http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/about/
+permalink: https://aqueduct.io/about/
 published: true
 sidebar:
   - ""
@@ -17,7 +16,7 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
+[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/slider-about-aqueduct.jpg' attachment='32' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.7' overlay_color='#545355' overlay_pattern='' overlay_custom_pattern='']
 [av_heading heading='About Aqueduct' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='22' padding='10' color='custom-color-heading' custom_font='#ffffff'][/av_heading]
 
 [av_hr class='invisible' height='20' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
@@ -30,33 +29,37 @@ header_transparency:
 Aqueduct seeks a middle ground between being explicit and convenience. aqueduct allows you to abstract away complexity when you want to, without preventing you from digging deeper and tackling that complexity in way that better fits your use case.
 
 Aqueduct includes tools to make the ecosystem around your web server more valuable with less effort - like automatic documentation generation.
+
+Still not sold? Read why we believe this framework is everything a Dart programmer is looking for. <a href="http://blog.stablekernel.com/why-dart-is-the-right-language-open-sourced-server-side-web-framework-aqueduct">Read more.</a>
 [/av_textblock]
 
 [/av_one_full]
 [/av_section]
 
-[av_section min_height='custom' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/Econet-Rheem-Manufacturing-header-stablekernel.jpg' attachment='235' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.3' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='' custom_class='']
-[av_heading heading='<a href="http://stablekernel.staging.wpengine.com/portfolio-item/econet/">EcoNet™</a>' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='custom-color-heading' custom_font='#ffffff' custom_class='portfoliocaption']
-<a href="http://stablekernel.staging.wpengine.com/portfolio-item/econet/">Rheem Manufacturing</a>
-[/av_heading]
+[av_section min_height='custom' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Projects-Rheem-photo-1.jpg' attachment='183' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
+[av_codeblock wrapper_element='' wrapper_element_attributes='']
+
+[/av_codeblock]
 [/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_heading tag='h1' padding='10' heading='Meet the Team behind Aqueduct' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='30' custom_class=''][/av_heading]
+[av_heading heading='Meet the Team behind Aqueduct' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='' subheading_size='30' padding='10' color='' custom_font=''][/av_heading]
 
 [/av_one_full]
 [/av_section]
 
-[av_slideshow_full size='no scaling' stretch='' animation='slide' autoplay='false' interval='5' control_layout='av-control-hidden' src='' attachment='' attachment_size='' position='top left' repeat='no-repeat' attach='scroll' custom_class='']
-[av_slide_full slide_type='image' id='58' video='' mobile_image='' video_format='' video_ratio='' title='' custom_title_size='' custom_content_size='' caption_pos='caption_right caption_right_framed caption_framed' link_apply='' link='lightbox' link_target='' button_label='' button_color='light' link1='manually,http://' link_target1='' button_label2='' button_color2='light' link2='manually,http://' link_target2='' font_color='' custom_title='' custom_content='' overlay_opacity='0.1' overlay_color='' overlay_pattern='' overlay_custom_pattern=''][/av_slide_full]
-[/av_slideshow_full]
+[av_section min_height='75' min_height_px='600px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/meet-the-team2-about-aqueduct.jpg' attachment='58' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
+[av_heading heading='EcoNet™' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='' custom_font='']
+Rheem Manufacturing
+[/av_heading]
+
+[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_heading tag='h1' padding='10' heading='Dart' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='subheading_below' subheading_size='30' custom_class='']
+[av_heading heading='Dart' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='5' color='' custom_font='']
 A Simple, Elegant Language Programmers Will Love
 [/av_heading]
 
@@ -88,10 +91,10 @@ Dart has its own easily deployable, stand-alone virtual machine, an incredible s
 [/av_one_full]
 [/av_section]
 
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
+[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/Aqueduct-News.jpg' attachment='178' attachment_size='full' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_heading tag='h2' padding='10' heading='Get Aqueduct News ' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='30' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+[av_heading heading='Get Aqueduct News ' tag='h1' style='blockquote modern-quote modern-centered' size='30' subheading_active='' subheading_size='15' padding='10' color='custom-color-heading' custom_font='#ffffff'][/av_heading]
 
 [/av_one_full][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
@@ -114,7 +117,7 @@ Dart has its own easily deployable, stand-alone virtual machine, an incredible s
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_half][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[/av_one_half][av_one_fourth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [/av_one_fourth]
 [/av_section]

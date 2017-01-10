@@ -52,7 +52,7 @@ Still not sold? Read why we believe this framework is everything a Dart programm
 
 [av_section min_height='75' min_height_px='600px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct.stablekernel.com/wp-content/uploads/sites/3/2016/08/meet-the-team2-about-aqueduct.jpg' attachment='58' attachment_size='full' attach='scroll' position='top center' repeat='stretch' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 
-[av_heading heading='EcoNet™' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='' custom_font='']
+[av_heading heading='EcoNet™' tag='h1' style='blockquote modern-quote modern-centered' size='' subheading_active='subheading_below' subheading_size='30' padding='10' color='' custom_font='' custom_class='portfoliocaption']
 Rheem Manufacturing
 [/av_heading]
 

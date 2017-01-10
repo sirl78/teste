@@ -51,7 +51,7 @@ Still not sold? Read why we believe this framework is everything a Dart programm
 [/av_section]
 
 [av_slideshow_full size='no scaling' stretch='' animation='slide' autoplay='false' interval='5' control_layout='av-control-hidden' src='' attachment='' attachment_size='' position='top left' repeat='no-repeat' attach='scroll' custom_class='']
-[av_slide_full slide_type='image' id='291' video='' mobile_image='' video_format='' video_ratio='' title='' custom_title_size='' custom_content_size='' caption_pos='caption_right caption_right_framed caption_framed' link_apply='' link='lightbox' link_target='' button_label='' button_color='light' link1='manually,http://' link_target1='' button_label2='' button_color2='light' link2='manually,http://' link_target2='' font_color='' custom_title='' custom_content='' overlay_opacity='0.1' overlay_color='' overlay_pattern='' overlay_custom_pattern=''][/av_slide_full]
+[av_slide_full slide_type='image' id='58' video='' mobile_image='' video_format='' video_ratio='' title='' custom_title_size='' custom_content_size='' caption_pos='caption_right caption_right_framed caption_framed' link_apply='' link='lightbox' link_target='' button_label='' button_color='light' link1='manually,http://' link_target1='' button_label2='' button_color2='light' link2='manually,http://' link_target2='' font_color='' custom_title='' custom_content='' overlay_opacity='0.1' overlay_color='' overlay_pattern='' overlay_custom_pattern='' video_controls='' video_mute='' video_loop='' video_autoplay='' overlay_enable=''][/av_slide_full]
 
 [/av_slideshow_full]
 

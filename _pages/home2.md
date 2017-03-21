@@ -34,11 +34,23 @@ Check out the Tutorials, the Github repo, view the API documentation and our tem
 Check out the Tutorials, the Github repo, view the API documentation and our template generator, Wildfire.</p>
 [/av_textblock]
 
-[av_one_full first min_height='' vertical_alignment='av-align-top' space='' custom_margin='aviaTBcustom_margin' margin='20px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#414042' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+[av_one_fourth first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='1' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
 
 [av_button label='TUTORIALS' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
 
-[/av_one_full][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[/av_one_fourth][av_one_fourth min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+
+[av_button label='TUTORIALS' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
+
+[/av_one_fourth][av_one_fourth min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+
+[av_button label='TUTORIALS' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
+
+[/av_one_fourth][av_one_fourth min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+
+[av_button label='TUTORIALS' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
+
+[/av_one_fourth][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
 [/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']

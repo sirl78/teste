@@ -19,9 +19,9 @@ header_transparency:
 ---
 [av_section min_height='' min_height_px='500px' padding='huge' shadow='no-shadow' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2017/03/mainBG.png' attachment='242' attachment_size='full' attach='fixed' position='center center' repeat='contain' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 
-[av_heading heading='FEATURES' tag='h4' style='' size='' subheading_active='' subheading_size='15' padding='10' color='' custom_font='' custom_class=''][/av_heading]
+[av_heading heading='FEATURES' tag='h4' style='blockquote modern-quote' size='' subheading_active='' subheading_size='15' padding='10' color='' custom_font='' custom_class=''][/av_heading]
 
-[av_content_slider heading='' columns='1' animation='slide' navigation='dots' autoplay='true' interval='5' font_color='' color='#414042' custom_class='']
+[av_content_slider heading='' columns='1' animation='slide' navigation='arrows' autoplay='true' interval='5' font_color='' color='#414042' custom_class='']
 [av_content_slide title='ORM query-building using Hamcrest matcher style' link='' linktarget='']
 @httpGet getProgrammersAndTestersNamedBob() async {
 var query = new UserQuery()

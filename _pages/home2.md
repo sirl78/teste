@@ -18,7 +18,6 @@ header_transparency:
   - ""
 ---
 [av_section min_height='' min_height_px='500px' padding='huge' shadow='no-shadow' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2017/03/mainBG.png' attachment='242' attachment_size='full' attach='fixed' position='center center' repeat='contain' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
-
 [av_content_slider heading='FEATURES' columns='1' animation='slide' navigation='arrows' autoplay='true' interval='5' font_color='' color='#414042' custom_class='']
 [av_content_slide title='ORM query-building using Hamcrest matcher style' link='' linktarget='']
 @httpGet getProgrammersAndTestersNamedBob() async {
@@ -33,8 +32,9 @@ return new Response.ok(users);
 Slide Content goes here
 [/av_content_slide]
 [/av_content_slider]
+[/av_section]
 
-[/av_section][av_section min_height='' min_height_px='500px' padding='huge' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#414042' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+[av_section min_height='' min_height_px='500px' padding='huge' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#414042' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#414042' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
 
 [av_heading tag='h3' padding='30' heading='GETTING STARTED' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='22' subheading_active='' subheading_size='20' custom_class='']
@@ -146,15 +146,3 @@ return new Response.ok(users);
 
 [/av_one_third]
 [/av_section]
-
-[av_slideshow size='featured' animation='slide' autoplay='false' autoplay_stopper='' interval='5' control_layout='' perma_caption=''][/av_slideshow]
-
-[av_layerslider id='1']
-
-[av_feature_image_slider link='category' items='3' offset='enforce_duplicates' contents='title' slider_size='16:9' preview_mode='auto' image_size='portfolio' control_layout='' animation='fade' autoplay='no' interval='5' overlay_enable='' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern=''][/av_feature_image_slider]
-
-[av_layerslider id='1']
-
-[av_layerslider id='1']
-
-[av_fullscreen size='extra_large' image_attachment='' animation='slide' autoplay='false' autoplay_stopper='' interval='5' control_layout='' scroll_down='' perma_caption=''][/av_fullscreen]

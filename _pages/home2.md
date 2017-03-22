@@ -19,7 +19,7 @@ header_transparency:
 ---
 [av_section min_height='50' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#ffffff' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2017/03/mainBG.png' attachment='242' attachment_size='full' attach='fixed' position='center center' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class=''][/av_section]
 
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#414042' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+[av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#414042' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#414042' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
 
@@ -30,11 +30,10 @@ Check out the Tutorials, the Github repo, view the API documentation and our tem
 [/av_heading]
 
 [/av_one_full][av_textblock size='' font_color='custom' color='#d6dadc' custom_class='']
-<p style="text-align: center;">The tutorials take you on a step-by-step journey through the fundamentals of using Aqueduct to build web servers.
-Check out the Tutorials, the Github repo, view the API documentation and our template generator, Wildfire.</p>
+<p style="text-align: center;">The tutorials take you on a step-by-step journey through the fundamentals of using Aqueduct to build web servers. Check out the Tutorials, the Github repo, view the API documentation and our template generator, Wildfire.</p>
 [/av_textblock]
 
-[av_one_fourth first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='1' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+[av_one_fourth first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
 
 [av_button label='TUTORIALS' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
 
@@ -52,62 +51,35 @@ Check out the Tutorials, the Github repo, view the API documentation and our tem
 
 [/av_one_fourth][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
+[/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#d6dadc' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+
+[av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#414042' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+
+[av_heading heading='ABOUT AQUEDUCT' tag='h3' style='blockquote modern-quote modern-centered' size='22' subheading_active='' subheading_size='20' padding='30' color='custom-color-heading' custom_font='#414042' custom_class='']
+
+The tutorials take you on a step-by-step journey through the fundamentals of using Aqueduct to build web servers.
+Check out the Tutorials, the Github repo, view the API documentation and our template generator, Wildfire.
+[/av_heading]
+
+[/av_one_full][av_textblock size='' font_color='custom' color='#414042' custom_class='']
+<p style="text-align: center;">The tutorials take you on a step-by-step journey through the fundamentals of using Aqueduct to build web servers. Check out the Tutorials, the Github repo, view the API documentation and our template generator, Wildfire.</p>
+[/av_textblock]
+
+[av_one_full first min_height='' vertical_alignment='av-align-top' space='no_margin' margin='0px' margin_sync='true' padding='10px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
+
+[av_button label='TUTORIALS' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
+
+[/av_one_full][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+
 [/av_section][av_section min_height='' min_height_px='500px' padding='large' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='features' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='fixed' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.4' overlay_color='#545355' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/diagonal-thin-dark.png' overlay_custom_pattern='']
+
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading tag='h1' padding='10' heading='Features' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
 
 [av_hr class='invisible' height='20' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][av_one_third first min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[av_heading tag='h2' padding='10' heading='Full user guide and <a href="https://www.dartdocs.org/documentation/aqueduct/0.9.0/index.html" target="_blank">API documentation</a>' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[av_hr class='invisible' height='60' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-
-[av_codeblock wrapper_element='' wrapper_element_attributes='']
-<!--HubSpot Call-to-Action Code -->
-<span id="hs-cta-wrapper-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-wrapper">
-<span id="hs-cta-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-node hs-cta-3e1ef674-5b56-4f1c-9a42-937c56361a23">
-<!-- [if lte IE 8]>
-<div id="hs-cta-ie-element"></div>
-<![endif]-->
-<a href="http://cta-redirect.hubspot.com/cta/redirect/706489/3e1ef674-5b56-4f1c-9a42-937c56361a23"><img id="hs-cta-img-3e1ef674-5b56-4f1c-9a42-937c56361a23" class="hs-cta-img" style="border-width: 0px;" src="https://no-cache.hubspot.com/cta/default/706489/3e1ef674-5b56-4f1c-9a42-937c56361a23.png" alt="GO TO THE TUTORIALS" /></a>
-</span>
-<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-<script type="text/javascript">
-        hbspt.cta.load(706489, '3e1ef674-5b56-4f1c-9a42-937c56361a23', {});
-    </script>
-</span>
-<!-- end HubSpot Call-to-Action Code -->
-[/av_codeblock]
-
-[/av_one_third][av_one_third min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[av_heading tag='h2' padding='10' heading='HTTP Request Routing and Request Pipelines' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[av_textblock size='' font_color='' color='']
-<pre class="features"><code class="language-dart">```
-router
-.route("/users/[:id]")
-.next(authenticationServer.authenticator())
-.next(() =&gt; new UserController());
-```</code></pre>
-[/av_textblock]
-
-[/av_one_third][av_one_third min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[av_heading tag='h2' padding='10' heading='Built-in OAuth 2.0 Authentication' color='custom-color-heading' style='blockquote modern-quote' custom_font='#ffffff' size='20' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[av_textblock size='' font_color='' color='']
-<pre class="features"><code class="language-dart">void addRoutes() {
-router.route("/auth/token")
-.next(authServer.authenticator(strategy: AuthenticationStrategy.Client))
-.next(() =&gt; new AuthController&lt;user, token=""&gt;());
-}</code></pre>
-[/av_textblock]
-
-[/av_one_third][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
+[/av_one_full][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
 [av_one_third first min_height='av-equal-height-column' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='20px' padding_sync='true' border='10' border_color='#414042' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
 
@@ -239,49 +211,14 @@ return new Response.ok(createdThings);</code></pre>
 [/av_textblock]
 
 [/av_one_third][av_hr class='invisible' height='50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-[/av_section]
+
+[/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/noise-for-dark-background.png' overlay_custom_pattern='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/bg.png'][/av_section]
 
 [av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-[av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
-[av_heading tag='h1' padding='10' heading='Why Aqueduct for Dart' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
+[av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
 
-[/av_one_full][av_one_fifth first min_height='av-equal-height-column' vertical_alignment='av-align-middle' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[/av_one_fifth][av_two_fifth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_iconlist position='left' iconlist_styling='av-iconlist-small' custom_title_size='22' custom_content_size='' font_color='' custom_title='' custom_content='' color='custom' custom_bg='' custom_font='#72c4d6' custom_border='']
-[av_iconlist_item title='Rapid development' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
-[av_iconlist_item title='Easy testing and CI integration' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
-[av_iconlist_item title='Supported by Google' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
-[av_iconlist_item title='Easy improvement and maintenance' link='' linktarget='' linkelement='' icon='ue879' font='entypo-fontello'][/av_iconlist_item]
-[/av_iconlist]
-
-[/av_two_fifth][av_one_fifth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_image src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/Aqueduct-Tutorial-Graphic-1-Retina-300x288.png' attachment='24' attachment_size='medium' align='center' styling='no-styling' hover='' link='' target='' caption='' font_size='' appearance='' overlay_opacity='0.4' overlay_color='#000000' overlay_text_color='#ffffff' animation='right-to-left'][/av_image]
-
-[/av_one_fifth][av_one_fifth min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[/av_one_fifth]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='' overlay_pattern='{{AVIA_BASE_URL}}images/background-images/noise-for-dark-background.png' overlay_custom_pattern='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2016/08/bg.png'][/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' id='' color='main_color' custom_bg='' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='']
-[av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
-
-[av_heading tag='h1' padding='10' heading='Getting Started' color='' style='blockquote modern-quote modern-centered' custom_font='' size='' subheading_active='' subheading_size='15' custom_class=''][/av_heading]
-
-[/av_one_full][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-
-[av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px,10%,0px,10%' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='']
-
-[av_textblock size='' font_color='' color='']
-Start with our <a href="http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/tutorials/">tutorials</a>. They take you on a step-by-step journey through the fundamentals of using Aqueduct to build web servers. You can also check out the Github repo, view the API documentation and access our template generator, <a href="https://github.com/stablekernel/wildfire" target="_blank">Wildfire</a>.
-[/av_textblock]
-
-[/av_one_full][av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
+[av_one_fourth first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_codeblock wrapper_element='' wrapper_element_attributes='']
 <!--HubSpot Call-to-Action Code -->
@@ -357,10 +294,7 @@ Start with our <a href="http://aqueduct-stablekernel-com.stablekernel.staging.wp
 <!-- end HubSpot Call-to-Action Code -->
 [/av_codeblock]
 
-[/av_one_fourth]
-[/av_section]
-
-[av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+[/av_one_fourth][/av_section][av_section min_height='' min_height_px='500px' padding='default' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#545355' src='' attachment='' attachment_size='' attach='scroll' position='center center' repeat='stretch' video='' video_ratio='16:9' overlay_enable='aviaTBoverlay_enable' overlay_opacity='0.5' overlay_color='#000000' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 [av_one_full first min_height='' vertical_alignment='' space='' custom_margin='' margin='0px' padding='0px' border='' border_color='' radius='0px' background_color='' src='' background_position='top left' background_repeat='no-repeat' animation='']
 
 [av_heading heading='Get Aqueduct News ' tag='h2' style='blockquote modern-quote modern-centered' size='30' subheading_active='' subheading_size='15' padding='10' color='custom-color-heading' custom_font='#ffffff' custom_class=''][/av_heading]

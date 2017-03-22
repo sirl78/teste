@@ -17,11 +17,25 @@ header_title_bar:
 header_transparency:
   - ""
 ---
-[av_section min_height='50' min_height_px='500px' padding='no-padding' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#ffffff' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2017/03/mainBG.png' attachment='242' attachment_size='full' attach='fixed' position='center center' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+[av_section min_height='' min_height_px='500px' padding='huge' shadow='no-shadow' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='' src='http://aqueduct-stablekernel-com.stablekernel.staging.wpengine.com/wp-content/uploads/sites/3/2017/03/mainBG.png' attachment='242' attachment_size='full' attach='fixed' position='center center' repeat='contain' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 
-[av_slideshow_accordion slide_type='image-based' link='category' items='5' offset='0' size='featured' autoplay='false' interval='5' title='true' excerpt='' accordion_align='true' custom_title_size='' custom_excerpt_size=''][/av_slideshow_accordion]
+[av_content_slider heading='FEATURES' columns='1' animation='slide' navigation='arrows' autoplay='true' interval='5' font_color='' color='' custom_class='']
+[av_content_slide title='ORM query-building using Hamcrest matcher style' link='' linktarget='']
+<h4 class="p1">@httpGet getProgrammersAndTestersNamedBob() async {</h4>
+<h3 class="p1">var query = new UserQuery()</h3>
+<h3 class="p1">..name = whereContains("Bob")</h3>
+<h3 class="p1">..job = whereIn(["programmer", "tester"]);</h3>
+<h3 class="p1">var users = await query.fetch();</h3>
+<h3 class="p1">return new Response.ok(users);</h3>
+<h3 class="p1">}</h3>
+[/av_content_slide]
+[av_content_slide title='Slide 2' tags='' link='' linktarget='']
+Slide Content goes here
+[/av_content_slide]
+[/av_content_slider]
 
 [/av_section][av_section min_height='' min_height_px='500px' padding='huge' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#414042' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='#414042' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
 
 [av_heading tag='h3' padding='30' heading='GETTING STARTED' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#ffffff' size='22' subheading_active='' subheading_size='20' custom_class='']
@@ -51,9 +65,8 @@ Check out the Tutorials, the Github repo, view the API documentation and our tem
 [av_button label='WILDFIRE' link='manually,http://' link_target='' size='medium' position='center' icon_select='no' icon='ue800' font='entypo-fontello' color='light' custom_bg='#444444' custom_font='#ffffff' custom_class='']
 
 [/av_one_fourth][av_hr class='invisible' height='-50' shadow='no-shadow' position='center' custom_border='av-border-thin' custom_width='50px' custom_border_color='' custom_margin_top='30px' custom_margin_bottom='30px' icon_select='yes' custom_icon_color='' icon='ue808' font='entypo-fontello']
-[/av_section]
 
-[av_section min_height='' min_height_px='500px' padding='huge' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#d6dadc' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
+[/av_section][av_section min_height='' min_height_px='500px' padding='huge' shadow='no-border-styling' bottom_border='no-border-styling' bottom_border_diagonal_color='#333333' bottom_border_diagonal_direction='' bottom_border_style='' id='' color='main_color' custom_bg='#d6dadc' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' overlay_opacity='0.5' overlay_color='' overlay_pattern='' overlay_custom_pattern='' custom_class='']
 [av_one_full first min_height='' vertical_alignment='av-align-top' space='' margin='0px' margin_sync='true' padding='0px' padding_sync='true' border='' border_color='' radius='0px' radius_sync='true' background_color='' src='' attachment='' attachment_size='' background_position='top left' background_repeat='no-repeat' animation='' mobile_display='' custom_class='']
 
 [av_heading tag='h3' padding='30' heading='ABOUT AQUEDUCT' color='custom-color-heading' style='blockquote modern-quote modern-centered' custom_font='#414042' size='22' subheading_active='' subheading_size='20' custom_class='']
@@ -143,3 +156,5 @@ return new Response.ok(users);
 [av_layerslider id='1']
 
 [av_layerslider id='1']
+
+[av_fullscreen size='extra_large' image_attachment='' animation='slide' autoplay='false' autoplay_stopper='' interval='5' control_layout='' scroll_down='' perma_caption=''][/av_fullscreen]
